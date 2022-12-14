@@ -2,40 +2,64 @@ package main
 
 import (
 	"encoding/json"
-	"html/template"
+	"fmt"
+
 	"io/ioutil"
 	"log"
-	"strings"
+	"net/http"
 
+	"github.com/MaxBrainygame/Discounts-GE/model"
 	"github.com/gocolly/colly"
+	"golang.org/x/text/language"
 )
 
-type Discount struct {
-	Place       string
-	Title       string
-	Description template.HTML
+const (
+	urlresource = "https://www.aversi.ge"
+	discountUrl = "/ka/aqciebi"
+)
+
+type Response struct {
+	ResponseData ResponseData
+}
+
+type ResponseData struct {
+	TranslatedText string
 }
 
 func main() {
 
-	//ref := h.Request.AbsoluteURL(h.ChildAttr("a", "href"))
-	// log.Println(ref)
-	// fmt.Println("Visiting", r.URL)
 	discounts := ParseDiscounts()
 
-	discountsJson, err := json.Marshal(discounts)
+	discountsLanguage := TranslateDiscounts(&discounts)
+
+	err := WriteDiscount(&discounts, "Discounts.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	err = ioutil.WriteFile("Discounts.json", discountsJson, 0644)
+	err = WriteDiscount(&discountsLanguage, "DiscountsLanguage.json")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 }
 
-func ParseDiscounts() (discounts []Discount) {
+func WriteDiscount[typeDiscount *[]model.Discount | *[]model.DiscountLanguage](discounts typeDiscount,
+	filename string) error {
+
+	discountsJson, err := json.Marshal(discounts)
+	if err != nil {
+		return err
+	}
+
+	err = ioutil.WriteFile(filename, discountsJson, 0644)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func ParseDiscounts() (discounts []model.Discount) {
 
 	collector := colly.NewCollector()
 
@@ -49,28 +73,107 @@ func ParseDiscounts() (discounts []Discount) {
 	// Processing page discount
 	collector.OnHTML(`article.post.clearfix.mb-50.pb-30`, func(h *colly.HTMLElement) {
 
-		discount := Discount{
-			Place:       "Aversi",
-			Title:       h.DOM.Find(`h1.entry-title.font-22`).Text(),
-			Description: getDescription(h),
+		discount := model.Discount{
+			Url:     h.Request.URL.String(),
+			Place:   "Aversi",
+			Title:   h.DOM.Find(`h1.entry-title.font-22`).Text(),
+			Picture: getPicture(h),
+			//Description: getDescription(h),
 		}
 
 		discounts = append(discounts, discount)
 
 	})
 
-	collector.Visit("https://www.aversi.ge/ka/aqciebi")
+	collector.Visit(fmt.Sprintf("%v%v", urlresource, discountUrl))
 
 	return
 }
 
-func getDescription(h *colly.HTMLElement) (description template.HTML) {
+func TranslateDiscounts(discounts *[]model.Discount) (discountsLanguage []model.DiscountLanguage) {
 
-	escapedAndJoined := template.HTMLEscaper(h.DOM.Html())
-	description = template.HTML(strings.ReplaceAll(escapedAndJoined, "\n", "<br>"))
-	// if err != nil {
-	// 	log.Printf(`In parser 'Aversi' failed get Description. Err: %v`, err)
-	// }
+	languages := [2]language.Tag{
+		language.Russian,
+		language.English,
+	}
+
+	urlTranslate := "https://api.mymemory.translated.net/get"
+
+	req, err := http.NewRequest("GET", urlTranslate, nil)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	for _, lang := range languages {
+
+		for _, discount := range *discounts {
+
+			translatedTitle, err := translatedText(req, &discount.Title, &lang)
+			if err != nil {
+				fmt.Println(err)
+				return
+			}
+
+			discountLanguage := model.DiscountLanguage{
+				Url:      discount.Url,
+				Place:    discount.Place,
+				Picture:  discount.Picture,
+				Title:    translatedTitle.ResponseData.TranslatedText,
+				Language: lang,
+			}
+
+			discountsLanguage = append(discountsLanguage, discountLanguage)
+		}
+
+	}
+
+	return
+
+}
+
+func translatedText(req *http.Request, forTrasnlate *string, lang *language.Tag) (translated Response, err error) {
+
+	q := req.URL.Query()
+	q.Set("q", *forTrasnlate)
+	q.Set("langpair", fmt.Sprintf("%v|%v", language.Georgian.String(), lang.String()))
+	req.URL.RawQuery = q.Encode()
+
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return
+	}
+
+	defer res.Body.Close()
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		return
+	}
+
+	err = json.Unmarshal(body, &translated)
+	if err != nil {
+		return
+	}
+
+	return
+}
+
+func getDescription(h *colly.HTMLElement) (description string) {
+
+	description = h.DOM.Find("div.entry-content").Text()
+
+	return
+
+}
+
+func getPicture(h *colly.HTMLElement) (picture string) {
+
+	picture = h.DOM.Find("div.entry-content").Text()
+
+	picture, exists := h.DOM.Find("img.img-fullwidth.img-responsive.aqciis-photo").Attr("src")
+	if exists {
+		picture = fmt.Sprintf("%v%v", urlresource, picture)
+	}
 
 	return
 
