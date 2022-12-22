@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/cleanhouse"
+	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/aversi"
 	"github.com/MaxBrainygame/Discounts-GE/internal/translations/microsoftTranslate"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
@@ -49,8 +49,8 @@ func main() {
 
 func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 
-	// parsersDiccount = append(parsersDiccount, aversi.NewParser())
-	parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
+	parsersDiccount = append(parsersDiccount, aversi.NewParser())
+	// parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
 
 	return
 }
