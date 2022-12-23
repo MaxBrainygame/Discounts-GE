@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"time"
 
 	"github.com/MaxBrainygame/Discounts-GE/model"
 	"golang.org/x/text/language"
@@ -49,6 +50,7 @@ func NewTranslatorDiscount() (t *TranslatorDiscount) {
 func (t *TranslatorDiscount) TranslateDiscounts(discounts *[]model.Discount) (*[]model.DiscountLanguage, error) {
 
 	var discountsLanguage []model.DiscountLanguage
+	var discountLanguage model.DiscountLanguage
 
 	for _, discount := range *discounts {
 
@@ -56,24 +58,51 @@ func (t *TranslatorDiscount) TranslateDiscounts(discounts *[]model.Discount) (*[
 			continue
 		}
 
-		translatedTexts, err := t.translatedText(discount.Title)
+		translatedTexts, err := t.translatedText(discount.Title, "")
 		if err != nil {
 			return &discountsLanguage, err
 		}
 
 		for _, translation := range translatedTexts[0].Translations {
 
-			discountLanguage := model.DiscountLanguage{
-				Url:          discount.Url,
-				Place:        discount.Place,
-				Picture:      discount.Picture,
-				Title:        translation.Text,
-				RegularPrice: discount.RegularPrice,
-				FinalPrice:   discount.FinalPrice,
-				Language:     language.Make(translation.To),
+			discountLanguage = model.DiscountLanguage{
+				Url:      discount.Url,
+				Place:    discount.Place,
+				Picture:  discount.Picture,
+				Title:    translation.Text,
+				Language: language.Make(translation.To),
+			}
+
+			for _, discountItem := range discount.Goods {
+
+				if len(discountItem.Title) == 0 {
+					continue
+				}
+
+				translatedTexts, err := t.translatedText(discountItem.Title, translation.To)
+				if err != nil {
+					return &discountsLanguage, err
+				}
+
+				for _, translationItem := range translatedTexts[0].Translations {
+
+					discountItemLanguage := model.DiscountItem{
+						Url:          discountItem.Url,
+						Picture:      discountItem.Picture,
+						Title:        translationItem.Text,
+						RegularPrice: discountItem.RegularPrice,
+						FinalPrice:   discountItem.FinalPrice,
+					}
+
+					discountLanguage.Goods = append(discountLanguage.Goods, discountItemLanguage)
+
+				}
+
 			}
 
 			discountsLanguage = append(discountsLanguage, discountLanguage)
+
+			time.Sleep(2 * time.Second)
 
 		}
 
@@ -82,17 +111,17 @@ func (t *TranslatorDiscount) TranslateDiscounts(discounts *[]model.Discount) (*[
 	return &discountsLanguage, nil
 }
 
-func (t *TranslatorDiscount) translatedText(forTrasnlateText string) ([]TranslatedMicrosoft, error) {
+func (t *TranslatorDiscount) translatedText(forTrasnlateText string, lang string) ([]TranslatedMicrosoft, error) {
 
 	var translated []TranslatedMicrosoft
-	// var forTrasnlate [1]ForTranslate
+	var forTrasnlate [1]ForTranslate
 
-	// forTrasnlate[0] = ForTranslate{Text: forTrasnlateText}
+	forTrasnlate[0] = ForTranslate{Text: forTrasnlateText}
 
-	// reqBody, err := json.Marshal(&forTrasnlate)
-	// if err != nil {
-	// 	return nil, err
-	// }
+	reqBody, err := json.Marshal(&forTrasnlate)
+	if err != nil {
+		return nil, err
+	}
 
 	// reqBody := []byte(fmt.Sprintf(`[
 	// 	{
@@ -100,11 +129,11 @@ func (t *TranslatorDiscount) translatedText(forTrasnlateText string) ([]Translat
 	// 	}
 	// ]`, forTrasnlateText))
 
-	reqBody := []byte(`[
-		{
-			"Text": "BELITA  შამპუნი თხელი და სუსტი თმისთვის 480 მლ (ბელიტა)"
-		}
-	]`)
+	// reqBody := []byte(`[
+	// 	{
+	// 		"Text": "BELITA  შამპუნი თხელი და სუსტი თმისთვის 480 მლ (ბელიტა)"
+	// 	}
+	// ]`)
 
 	req, err := http.NewRequest(http.MethodPost, t.url, bytes.NewBuffer(reqBody))
 	if err != nil {
@@ -115,13 +144,16 @@ func (t *TranslatorDiscount) translatedText(forTrasnlateText string) ([]Translat
 	req.Header.Set("X-RapidAPI-Host", "microsoft-translator-text.p.rapidapi.com")
 	req.Header.Set("Content-Type", "application/json")
 
+	if len(lang) == 0 {
+		lang = fmt.Sprintf("%s,%s", t.languages[0].String(), t.languages[1].String())
+	}
+
 	q := req.URL.Query()
 	q.Set("api-version", "3.0")
 	q.Set("profanityAction", "NoAction")
 	q.Set("textType", "plain")
 	q.Set("from", t.defaultLanguage.String())
-	// q.Set("to", fmt.Sprintf("%s,%s", t.languages[0].String(), t.languages[1].String()))
-	q.Set("to", "en,ru")
+	q.Set("to", lang)
 	req.URL.RawQuery = q.Encode()
 
 	res, err := http.DefaultClient.Do(req)

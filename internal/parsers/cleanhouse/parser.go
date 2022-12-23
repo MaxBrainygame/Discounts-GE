@@ -18,30 +18,43 @@ const (
 
 type parserDiscount struct {
 	Collector *colly.Collector
+	Place     string
 }
 
 func NewParser() parsers.ParseDiscounter {
 
 	return &parserDiscount{
 		Collector: colly.NewCollector(),
+		Place:     place,
 	}
 }
 
 func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
 	var discounts []model.Discount
+	var discount model.Discount
 
-	// page with promotions
-	p.Collector.OnHTML("div.ab__dotd_promotions-item_image", func(h *colly.HTMLElement) {
+	// Page with promotions
+	p.Collector.OnHTML("div.ab__dotd_promotions-item", func(h *colly.HTMLElement) {
 
 		ref := h.ChildAttr("a", "href")
-		if len(ref) > 0 {
-			h.Request.Visit(ref)
+
+		if len(discount.Url) > 0 && discount.Url != ref {
+			discounts = append(discounts, discount)
 		}
+
+		discount = model.Discount{
+			Url:     ref,
+			Place:   p.Place,
+			Picture: h.DOM.Find(".ab__dotd_promotions-item_image a img").AttrOr("data-src", ""),
+			Title:   h.DOM.Find("div.ab__dotd_promotions-item_title").Text(),
+		}
+
+		h.Request.Visit(ref)
 
 	})
 
-	// pagination
+	// Implement pagination
 	p.Collector.OnHTML("div.ty-pagination", func(h *colly.HTMLElement) {
 
 		nextPage, exists := h.DOM.Find(".ty-pagination__item.ty-pagination__btn.ty-pagination__next.cm-history.cm-ajax.ty-pagination__right-arrow").Attr("href")
@@ -51,7 +64,7 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
 	})
 
-	// tag with product
+	// Tag with product
 	p.Collector.OnHTML("div.ut2-gl__body", func(h *colly.HTMLElement) {
 
 		regularPrice, err := getPrice(h, ".ut2-gl__price div span .ty-list-price.ty-nowrap .ty-strike span")
@@ -65,17 +78,16 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 			return
 		}
 
-		discount := model.Discount{
-			Url:          h.ChildAttr("a", "href"),
-			Place:        place,
+		discountItem := model.DiscountItem{
+			Url: h.ChildAttr("a", "href"),
+			//Place:        place,
 			Picture:      getPicture(h),
 			Title:        h.DOM.Find("h4.ut2-gl__name").Text(),
-			Description:  "",
 			RegularPrice: regularPrice,
 			FinalPrice:   finalPrice,
 		}
 
-		discounts = append(discounts, discount)
+		discount.Goods = append(discount.Goods, discountItem)
 	})
 
 	p.Collector.Visit(fmt.Sprintf("%v%v", urlresource, discountUrl))

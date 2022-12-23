@@ -69,7 +69,6 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 			Place:   place,
 			Title:   h.DOM.Find(`h1.entry-title.font-22`).Text(),
 			Picture: getPicture(h),
-			//Description: getDescription(h),
 		}
 
 		discounts = append(discounts, discount)
@@ -87,14 +86,6 @@ func getPicture(h *colly.HTMLElement) (picture string) {
 	if exists {
 		picture = fmt.Sprintf("%v%v", urlresource, picture)
 	}
-
-	return
-
-}
-
-func getDescription(h *colly.HTMLElement) (description string) {
-
-	description = h.DOM.Find("div.entry-content").Text()
 
 	return
 
