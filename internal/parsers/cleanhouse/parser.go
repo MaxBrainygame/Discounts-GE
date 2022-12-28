@@ -31,8 +31,10 @@ func NewParser() parsers.ParseDiscounter {
 
 func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
-	var discounts []model.Discount
-	var discount model.Discount
+	var (
+		discounts []model.Discount
+		discount  model.Discount
+	)
 
 	// Page with promotions
 	p.Collector.OnHTML("div.ab__dotd_promotions-item", func(h *colly.HTMLElement) {
