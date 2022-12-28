@@ -49,30 +49,7 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 	var (
 		discounts []model.Discount
 		discount  model.Discount
-		// currentPage int = 1
-		// totalPages  int = 1
 	)
-	// var
-
-	// 	for true {
-	//
-	// 		listProduct, err := p.getProducts(currentPage)
-	// 		if err != nil {
-	// 			return &discounts, err
-	// 		}
-	//
-	// 		// discount := model.Discount{}
-	//
-	// 		if totalPages == 0 {
-	// 			totalPages = listProduct.Data.Page_info.Total_pages
-	// 		}
-	//
-	// 		currentPage = listProduct.Data.Page_info.Current_page
-	// 		if currentPage == totalPages {
-	// 			break
-	// 		}
-	//
-	// 	}
 
 	treeCategories, err := p.getTreeCategories()
 	if err != nil {
