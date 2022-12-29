@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	urlresource = "https://ch.ge"
+	urlHost     = "https://ch.ge"
 	discountUrl = "/promotions-list.html"
 	place       = "CleanHouse"
 )
@@ -19,6 +19,8 @@ const (
 type parserDiscount struct {
 	Collector *colly.Collector
 	Place     string
+	Url       string
+	UrlHost   string
 }
 
 func NewParser() parsers.ParseDiscounter {
@@ -26,6 +28,8 @@ func NewParser() parsers.ParseDiscounter {
 	return &parserDiscount{
 		Collector: colly.NewCollector(),
 		Place:     place,
+		Url:       fmt.Sprint(urlHost, discountUrl),
+		UrlHost:   urlHost,
 	}
 }
 
@@ -46,6 +50,7 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 		}
 
 		discount = model.Discount{
+
 			Url:     ref,
 			Place:   p.Place,
 			Picture: h.DOM.Find(".ab__dotd_promotions-item_image a img").AttrOr("data-src", ""),
@@ -81,8 +86,8 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 		}
 
 		discountItem := model.DiscountItem{
-			Url: h.ChildAttr("a", "href"),
-			//Place:        place,
+
+			Url:          h.ChildAttr("a", "href"),
 			Picture:      getPicture(h),
 			Title:        h.DOM.Find("h4.ut2-gl__name").Text(),
 			RegularPrice: regularPrice,
@@ -92,7 +97,10 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 		discount.Goods = append(discount.Goods, discountItem)
 	})
 
-	p.Collector.Visit(fmt.Sprintf("%v%v", urlresource, discountUrl))
+	p.Collector.Visit(p.Url)
+
+	// Add last element
+	discounts = append(discounts, discount)
 
 	return &discounts, nil
 }

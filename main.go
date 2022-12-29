@@ -7,8 +7,7 @@ import (
 	"log"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/nikora"
-	"github.com/MaxBrainygame/Discounts-GE/internal/translations/microsoftTranslate"
+	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/cleanhouse"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
 
@@ -20,7 +19,7 @@ const (
 func main() {
 
 	parsersDiccount := GetParsersDiscount()
-	translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
+	// translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
 
 	for _, parser := range parsersDiccount {
 
@@ -29,19 +28,19 @@ func main() {
 			log.Fatal(err)
 		}
 
-		discountsLanguage, err := translatorDiscount.TranslateDiscounts(discounts)
-		if err != nil {
-			log.Println(err)
-		}
+		// discountsLanguage, err := translatorDiscount.TranslateDiscounts(discounts)
+		// if err != nil {
+		// 	log.Println(err)
+		// }
 
 		err = WriteDiscount(discounts, "Discounts.json")
 		if err != nil {
 			log.Fatal(err)
 		}
-		err = WriteDiscount(discountsLanguage, "DiscountsLanguage.json")
-		if err != nil {
-			log.Fatal(err)
-		}
+		// err = WriteDiscount(discountsLanguage, "DiscountsLanguage.json")
+		// if err != nil {
+		// 	log.Fatal(err)
+		// }
 
 	}
 
@@ -50,9 +49,9 @@ func main() {
 func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 
 	// parsersDiccount = append(parsersDiccount, aversi.NewParser())
-	// parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
+	parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
 	// parsersDiccount = append(parsersDiccount, psp.NewParser())
-	parsersDiccount = append(parsersDiccount, nikora.NewParser())
+	// parsersDiccount = append(parsersDiccount, nikora.NewParser())
 
 	return
 }
