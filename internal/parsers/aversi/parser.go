@@ -9,25 +9,37 @@ import (
 )
 
 const (
-	urlresource = "https://www.aversi.ge"
+	urlHost     = "https://www.aversi.ge"
 	discountUrl = "/ka/aqciebi"
 	place       = "Aversi"
+	logoUrl     = "https://www.aversi.ge/images/logo.png"
 )
 
 type parserDiscount struct {
 	Collector *colly.Collector
+	Place     string
+	LogoUrl   string
+	Url       string
+	UrlHost   string
 }
 
 func NewParser() parsers.ParseDiscounter {
 
 	return &parserDiscount{
 		Collector: colly.NewCollector(),
+		Place:     place,
+		LogoUrl:   logoUrl,
+		Url:       fmt.Sprint(urlHost, discountUrl),
+		UrlHost:   urlHost,
 	}
 }
 
-func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
+func (p *parserDiscount) ParseDiscounts() (*model.Store, error) {
 
-	var discounts []model.Discount
+	var (
+		discounts []model.Discount
+		store     model.Store
+	)
 
 	// Need go on every page discount
 	p.Collector.OnHTML("h5.entry-title.mt-0.pt-0", func(h *colly.HTMLElement) {
@@ -75,16 +87,23 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
 	})
 
-	p.Collector.Visit(fmt.Sprintf("%v%v", urlresource, discountUrl))
+	p.Collector.Visit(p.Url)
 
-	return &discounts, nil
+	store = model.Store{
+		Name:      p.Place,
+		Logo:      p.LogoUrl,
+		Host:      p.UrlHost,
+		Discounts: discounts,
+	}
+
+	return &store, nil
 }
 
 func getPicture(h *colly.HTMLElement) (picture string) {
 
 	picture, exists := h.DOM.Find("img.img-fullwidth.img-responsive.aqciis-photo").Attr("src")
 	if exists {
-		picture = fmt.Sprintf("%v%v", urlresource, picture)
+		picture = fmt.Sprintf("%v%v", urlHost, picture)
 	}
 
 	return

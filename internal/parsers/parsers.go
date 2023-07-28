@@ -5,5 +5,5 @@ import (
 )
 
 type ParseDiscounter interface {
-	ParseDiscounts() (discounts *[]model.Discount, err error)
+	ParseDiscounts() (discounts *model.Store, err error)
 }

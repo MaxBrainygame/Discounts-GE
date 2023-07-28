@@ -4,6 +4,13 @@ import (
 	"golang.org/x/text/language"
 )
 
+type Store struct {
+	Logo      string
+	Name      string
+	Host      string
+	Discounts []Discount
+}
+
 type Discount struct {
 	Url         string
 	Place       string

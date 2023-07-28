@@ -2,18 +2,15 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 
 	"io/ioutil"
 	"log"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/cleanhouse"
+	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/aversi"
+	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/nikora"
 	"github.com/MaxBrainygame/Discounts-GE/model"
-)
-
-const (
-	urlresource = "https://www.aversi.ge"
-	discountUrl = "/ka/aqciebi"
 )
 
 func main() {
@@ -23,7 +20,7 @@ func main() {
 
 	for _, parser := range parsersDiccount {
 
-		discounts, err := parser.ParseDiscounts()
+		store, err := parser.ParseDiscounts()
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -33,7 +30,7 @@ func main() {
 		// 	log.Println(err)
 		// }
 
-		err = WriteDiscount(discounts, "Discounts.json")
+		err = WriteDiscount(store, fmt.Sprintf("Discounts%s.json", store.Name))
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -48,15 +45,15 @@ func main() {
 
 func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 
-	// parsersDiccount = append(parsersDiccount, aversi.NewParser())
-	parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
+	parsersDiccount = append(parsersDiccount, aversi.NewParser())
+	// parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
 	// parsersDiccount = append(parsersDiccount, psp.NewParser())
-	// parsersDiccount = append(parsersDiccount, nikora.NewParser())
+	parsersDiccount = append(parsersDiccount, nikora.NewParser())
 
 	return
 }
 
-func WriteDiscount[typeDiscount *[]model.Discount | *[]model.DiscountLanguage](discounts typeDiscount,
+func WriteDiscount[typeDiscount *model.Store | *[]model.DiscountLanguage](discounts typeDiscount,
 	filename string) error {
 
 	discountsJson, err := json.Marshal(discounts)
