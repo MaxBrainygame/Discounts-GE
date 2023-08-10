@@ -2,6 +2,10 @@
     "Logo": "https://nikorasupermarket.ge/images/logo.svg",
     "Name": "Nikora",
     "Host": "http://nikorasupermarket.ge",
+    "Category": {
+        "Key": "58780",
+        "Name": "Grocery"
+    },
     "Discounts": [
         {
             "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი",

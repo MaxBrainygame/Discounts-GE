@@ -2,156 +2,64 @@
     "Logo": "https://www.aversi.ge/images/logo.png",
     "Name": "Aversi",
     "Host": "https://www.aversi.ge",
+    "Category": {
+        "Key": "58270",
+        "Name": "Pharmacy"
+    },
     "Discounts": [
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3065",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3087",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/saparsi-sashualebebi.jpg",
-            "Title": "31 ივლისის ჩათვლით, ჩვენს აფთიაქებში, საპარს საშუალებებს სპეც. ფასად შეიძენ",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/ahava-tanis-movla.jpg",
+            "Title": "10 აგვისტოს ჩათვლით, AHAVA-ს ტანის მოვლის საშუალებების სრულ ასორტიმენტზე დაგხვდებათ -50%-იანი ფასდაკლება",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3066",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3088",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/qiriness--50.jpg",
-            "Title": "მხოლოდ ივლისის ბოლომდე, ჩვენს აფთიაქებში, თავის მოვლის ფრანგულ ბრენდ QIRINESS-ის პროდუქციაზე -50% ფასდაკლება დაგხვდება",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/elgon-zeti.jpg",
+            "Title": "5 აგვისტოს ჩათვლით, ,,ელგონის\" თმის ზეთზე სპეც. ფასი მოქმედებს",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3067",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3089",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/intima--40.jpg",
-            "Title": " თვის ბოლომდე, მოიკითხე ავერსში intima+ და ისარგებლე -40% ფასდაკლებით",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/fasdaklebebi-zafxulis.jpg",
+            "Title": "1-10 აგვისტოს, ავერსის აფთიაქებში, -40-50% ფასდაკლება დაგხვდება ბრენდების ასორტიმენტზე",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3068",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3090",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/declare--50-srul-asortimentze.jpg",
-            "Title": "მხოლოდ თვის ბოლომდე, DECLARE-ის სრულ ასორტიმენტზე -50% ფასდაკლება გელოდება",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/beter-sponji.jpg",
+            "Title": "5 აგვისტოს ჩათვლით, მხოლოდ ავერსში, შეიძინე BETER-ის ტონალურის წასასმელი სპონჟი სპეც. ფასად",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3063",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3085",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/chipolino-akcia.jpg",
-            "Title": " 25-28 ივლისს, ავერსის აფთიაქებში, CHIPOLINO-ს საწოლ-მანეჟებზე უპრეცედენტო ფასი გელოდება",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/fasdakleba-nevrologiur-medikamentebze.jpg",
+            "Title": "წარადგინე პრომო კოდი - 2308 და შეიძინე ნევროლოგიური მედიკამენტები -35%-იანი ფასდაკლებით",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3052",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3070",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/fasdaklebebi-brendebze.jpg",
-            "Title": "21 ივლისიდან, 31 ივლისის ჩათვლით, ავერსის რჩეულ ბრენდებზე -50%-იანი ფასდაკლება ვრცელდება",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/body-natur-fasdakleba--30.jpg",
+            "Title": " 2 აგვისტოს ჩათვლით, Body Natur-ის სასაჩუქრე ნაკრებებზე -30% ფასდაკლება გელოდება! სასაჩუქრე ნაკრებები წარმოდგენილია სხვადასხვა არომატებით",
             "Description": "",
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3057",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3072",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/mzis-damcavebi-akcia.jpg",
-            "Title": "დაიცავი კანი მზის ულტრაიისფერი გამოსხივებისგან და ამავედროს მიიღე ეფექტური რუჯი",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3061",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/elgon.jpg",
-            "Title": " შეიძინე ავერსის აფთიაქებში, ELGON-ის თმის აღმდგენი ლოსიონი განსაკუთრებულ ფასად და ისიამოვნე შედეგით",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3064",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/rebest.jpg",
-            "Title": "25-27 ივლისს, ავერსში საბავშვო დღეები დაგხვდება!",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3062",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/akcia-deodorantebze.jpg",
-            "Title": "თვის ბოლომდე, ავერსის სააფთიაქო ქსელში, სპეც. ფასები დაგხვდება დეოდორანტებზე",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3058",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/omron--20.jpg",
-            "Title": "24 ივლისიდან, OMRON-ის აპარატურაზე -20%-იანი ფასდაკლება დაგხვდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3059",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/excellence.jpg",
-            "Title": "Excellence-სა და Preference-ს თმის საღებავებს განსაკუთრებულ ფასად შეიძენ, ავერსის აფთიაქებში",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3053",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/mollerws--50.jpg",
-            "Title": "31 ივლისის ჩათვლით, ავერსის სააფთიაქო ქსელში, -50%-იანი ფასდაკლება დაგხვდებათ მიოლერის პროდუქციაზე",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3054",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/cera-ve--50.jpg",
-            "Title": "31 ივლისის ჩათვლით, ჩვენს აფთიაქებში, CeraVe-ს სრულ ასორტიმენტზე -50% ფასდაკლება ვრცელდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3055",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/amiakis-gareSe-saRebavi.jpg",
-            "Title": "შენი თმის თვალისმომჭრელი ფერისთვის, მოიკითხე ავერსში \"ოლეა ქოლორის\" საღებავები და შეიძინე -50% ფასდაკლებით",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3056",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/kardiologiuri-medikamentebi.jpg",
-            "Title": "30 ივლისის ჩათვლით, წარადგინე პრომო კოდი - 2307 და ისარგებლე -35% ფასდაკლებით კარდიოლოგიურ და დიაბეტის სამკურნალო მედიკამენტებზე",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3050",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/Tvit.jpg",
-            "Title": "31 ივლისის ჩათვლით ავერსის სააფთიაქო ქსელში თვითმომსახურების აპარატებზე განსაკუთრებული აქციები გელოდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3035",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/kuchnawlavi-maregulierebeli-medikamentebi.gif",
-            "Title": "ივლისის თვის განმავლობაში, ჩვენს სააფთიაქო ქსელში, კუჭ-ნაწლავის სისტემის მარეგულირებელ მედიკამენტებს -35-45%-იანი ფასდაკლებით შეიძენ",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3049",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/babe---babe-present.jpg",
-            "Title": "11 ივლისიდან, შეიძინე ესპანურ ბრენდ BABE-ს ნებისმიერი 2 პროდუქტი და მიიღე საჩუქრად ბაბეს ნაჭრის ჩანთა",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/venebis-samkurnallo-medikamentebi.jpg",
+            "Title": "ავერსის სააფთიაქო ქსელში, ვენების სამკურნალო მედიკამენტებზე განსაკუთრებული ფასები დაგხვდება",
             "Description": "",
             "Goods": null
         },
@@ -164,26 +72,10 @@
             "Goods": null
         },
         {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3048",
+            "Url": "https://www.aversi.ge/ka/aqciebi/3075",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/zein-pharma--40.jpg",
-            "Title": "თვის ბოლომდე, ავერსის სააფთიაქო ქსელში ცაინფარმას მედიკამენტებს -40% ფასდაკლებით შეიძენ",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3060",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/qiriness-akcia-aft.jpg",
-            "Title": "31 ივლისის ჩათვლით, ქირინესის სრულ ასორტიმენტზე -50% ფასდაკლება დაგხვდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/2884",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.ge/uploads/aqcia/memorium.jpg",
-            "Title": "31 ივლისის ჩათვლით, ავერსი გთავაზობთ სპეციალურ ფასდაკლებას მეხსიერებისთვის სასარგებლო საკვებ დანამატზე",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/mesauda-cxrili.jpg",
+            "Title": "10 აგვისტოს ჩათვლით, ისარგებლე განსაკუთრებული ფასით მესაუდას შილაქებსა და საშრობ აპარატზე",
             "Description": "",
             "Goods": null
         },

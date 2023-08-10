@@ -5,5 +5,5 @@ import (
 )
 
 type ParseDiscounter interface {
-	ParseDiscounts() (discounts *model.Store, err error)
+	ParseDiscounts(categoryStores map[string]*model.CategoryStores) (discounts *model.Store, err error)
 }

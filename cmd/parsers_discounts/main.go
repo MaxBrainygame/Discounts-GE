@@ -15,12 +15,16 @@ import (
 
 func main() {
 
+	categoryStores := make(map[string]*model.CategoryStores)
+	categoryStores["Pharmacy"] = &model.CategoryStores{Key: "58270", Name: "Pharmacy"}
+	categoryStores["Grocery"] = &model.CategoryStores{Key: "58780", Name: "Grocery"}
+
 	parsersDiccount := GetParsersDiscount()
 	// translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
 
 	for _, parser := range parsersDiccount {
 
-		store, err := parser.ParseDiscounts()
+		store, err := parser.ParseDiscounts(categoryStores)
 		if err != nil {
 			log.Fatal(err)
 		}

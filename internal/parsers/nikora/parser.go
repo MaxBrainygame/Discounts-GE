@@ -17,6 +17,7 @@ const (
 	discountUrl = "/ge/მიმდინარე-აქციები"
 	place       = "Nikora"
 	logoUrl     = "https://nikorasupermarket.ge/images/logo.svg"
+	typeStore   = "Grocery"
 )
 
 type parserDiscount struct {
@@ -25,6 +26,7 @@ type parserDiscount struct {
 	Url       string
 	UrlHost   string
 	LogoUrl   string
+	TypeStore string
 }
 
 func NewParser() parsers.ParseDiscounter {
@@ -35,11 +37,12 @@ func NewParser() parsers.ParseDiscounter {
 		Url:       fmt.Sprint(urlHost, discountUrl),
 		UrlHost:   urlHost,
 		LogoUrl:   logoUrl,
+		TypeStore: typeStore,
 	}
 
 }
 
-func (p *parserDiscount) ParseDiscounts() (*model.Store, error) {
+func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.CategoryStores) (*model.Store, error) {
 
 	var (
 		store     model.Store
@@ -115,6 +118,7 @@ func (p *parserDiscount) ParseDiscounts() (*model.Store, error) {
 		Name:      p.Place,
 		Logo:      p.LogoUrl,
 		Host:      p.UrlHost,
+		Category:  *categoryStores[p.TypeStore],
 		Discounts: discounts,
 	}
 

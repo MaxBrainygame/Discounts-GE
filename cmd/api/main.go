@@ -16,6 +16,44 @@ import (
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
 
+func categories(w http.ResponseWriter, r *http.Request) {
+
+	w.Header().Set("Content-Type", "application/json")
+
+	var (
+		storeAversi     model.Store
+		storeNikora     model.Store
+		categoriesStore []model.CategoryStores
+	)
+	file, err := ioutil.ReadFile("DiscountsAversi.json")
+	if err != nil {
+		log.Fatalf("Error happened read file. Err: %s", err)
+	}
+	err = json.Unmarshal(file, &storeAversi)
+	if err != nil {
+		log.Fatalf("Error happened JSON unmarhall")
+	}
+
+	file, err = ioutil.ReadFile("DiscountsNikora.json")
+	if err != nil {
+		log.Fatalf("Error happened read file. Err: %s", err)
+	}
+	err = json.Unmarshal(file, &storeNikora)
+	if err != nil {
+		log.Fatalf("Error happened JSON unmarhall. Err: %s", err)
+	}
+
+	categoriesStore = append(categoriesStore, storeAversi.Category)
+	categoriesStore = append(categoriesStore, storeNikora.Category)
+
+	resp, err := json.Marshal(categoriesStore)
+	if err != nil {
+		log.Fatalf("Error happened JSON Marshall. Err: %s", err)
+	}
+
+	w.Write(resp)
+}
+
 func stores(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
@@ -25,6 +63,9 @@ func stores(w http.ResponseWriter, r *http.Request) {
 		storeNikora model.Store
 		stores      []model.Store
 	)
+
+	keyCategory := r.URL.Query().Get("key")
+
 	file, err := ioutil.ReadFile("DiscountsAversi.json")
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
@@ -45,6 +86,16 @@ func stores(w http.ResponseWriter, r *http.Request) {
 
 	stores = append(stores, storeAversi)
 	stores = append(stores, storeNikora)
+
+	for i := 0; i < len(stores); i++ {
+
+		if stores[i].Category.Key == keyCategory {
+			continue
+		}
+
+		stores = append(stores[:i], stores[i+1:]...)
+
+	}
 
 	resp, err := json.Marshal(stores)
 	if err != nil {
@@ -166,6 +217,7 @@ func main() {
 	http.HandleFunc("/stores", stores)
 	http.HandleFunc("/promotions", promotions)
 	http.HandleFunc("/products", products)
+	http.HandleFunc("/categories", categories)
 	err := server.ListenAndServe()
 	// err := http.ListenAndServe(":8080", nil)
 	if !errors.Is(err, http.ErrServerClosed) {

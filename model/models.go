@@ -8,7 +8,13 @@ type Store struct {
 	Logo      string
 	Name      string
 	Host      string
+	Category  CategoryStores
 	Discounts []Discount
+}
+
+type CategoryStores struct {
+	Key  string
+	Name string
 }
 
 type Discount struct {
