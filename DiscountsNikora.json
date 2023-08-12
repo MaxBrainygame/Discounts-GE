@@ -15,550 +15,116 @@
             "Description": "",
             "Goods": [
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/კაკაოლატი-კაკაოს-რძიანი-კოქტეილი-200-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15747.png",
-                    "Title": "\"კაკაოლატი\" კაკაოს რძიანი კოქტეილი 200 მლ.\n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.29
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/toys/სათამაშო-ქვიშის-ნაკრები",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15780.png",
+                    "Title": "სათამაშო ქვიშის ნაკრები\n",
+                    "RegularPrice": 14,
+                    "FinalPrice": 9.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-საწრუპით-პლასტმასის-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15748.png",
-                    "Title": "ჭიქა საწრუპით, პლასტმასის \n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.49
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბარამბო-კარამელი-ფრუტა-180-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15768.png",
+                    "Title": "\"ბარამბო\" კარამელი \"ფრუტა\" 180 გრ. \n",
+                    "RegularPrice": 2.6,
+                    "FinalPrice": 1.89
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-წვენის-340-მლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15749.png",
-                    "Title": "ჭიქა წვენის, 340 მლ. \n",
-                    "RegularPrice": 6,
-                    "FinalPrice": 2.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ნიკორა-ღორის-კისერი-1-კგ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15769.png",
+                    "Title": "\"ნიკორა\" ღორის კისერი 1 კგ.\n",
+                    "RegularPrice": 17.5,
+                    "FinalPrice": 13.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/აქსესუარები/შლოპანცი",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15750.png",
-                    "Title": "შლოპანცი\n",
-                    "RegularPrice": 9.9,
-                    "FinalPrice": 6.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/თევზეული/თევზი-ანჩოუსიყვითელზოლიანი-სელარიკალმარი-გამომშრალი-დამარილებული-18-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15770.png",
+                    "Title": "თევზი \"ანჩოუსი\"/\"ყვითელზოლიანი სელარი\"/\"კალმარი\" გამომშრალი, დამარილებული 18 გრ.\n",
+                    "RegularPrice": 2,
+                    "FinalPrice": 1.69
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ქლიარი-შამპუნი-180-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15751.png",
-                    "Title": "\"ქლიარი\" შამპუნი 180 მლ.\n",
-                    "RegularPrice": 8.2,
-                    "FinalPrice": 6.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/რექსონა-დეოდორანტი-სპრეი-150-მლ-x-6",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15752.png",
-                    "Title": "\"რექსონა\" დეოდორანტი, სპრეი 150 მლ. x 6\n",
-                    "RegularPrice": 10.5,
-                    "FinalPrice": 7.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ბიმაქსი-სარეცხი-ფხვნილი--ავტომატი-3-კგ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15754.png",
-                    "Title": "\"ბიმაქსი\" სარეცხი ფხვნილი  \"ავტომატი\" 3 კგ.\n",
-                    "RegularPrice": 26.95,
-                    "FinalPrice": 1.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ნუა-საპირფარეშოს-ქაღალდი-12-ც",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15755.png",
-                    "Title": "\"ნუა\" საპირფარეშოს ქაღალდი 12 ც.\n",
-                    "RegularPrice": 16.95,
-                    "FinalPrice": 10.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ნუა-სამზარეულოს-ხელსახოცი-1-ც-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15756.png",
-                    "Title": "\"ნუა\" სამზარეულოს ხელსახოცი 1 ც. \n",
-                    "RegularPrice": 4.4,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ხვეულა-ყველი-ჩედარით-1-ც-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15757.png",
-                    "Title": "ხვეულა ყველი ჩედარით 1 ც.-აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 2.95,
-                    "FinalPrice": 2.59
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/pastry-food/ნამცხვარი-ვაშლის-და-ლიმონის-გულსართით-1-ც-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15758.png",
-                    "Title": "ნამცხვარი \"ტირამისუ იტალიური\" 1 ნაჭ. -აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/მოკატე-ორცხობილა-160-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15734.png",
-                    "Title": "\"მოკატე\" ორცხობილა 160 გრ.\n",
-                    "RegularPrice": 5.5,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანდომი-ორცხობილა-ფორთოხლის-ჯემით-480-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15735.png",
-                    "Title": "\"სანდომი\" ორცხობილა ფორთოხლის ჯემით 480 გრ.\n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ტკბილი-ქვეყანა-ორცხობილა-ბრაუნი-500-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15736.png",
-                    "Title": "\"ტკბილი ქვეყანა\" ორცხობილა \"ბრაუნი\" 500 გრ.\n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ქელოგს-ბურბუშელა-სიმინდის-დინოზავრები-220-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15737.png",
-                    "Title": "\"ქელოგს\" ბურბუშელა სიმინდის \"დინოზავრები\" 220 გრ. \n",
-                    "RegularPrice": 6.1,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/დოქტორ-ბენერი-მიუსლი-ხრაშუნა-375-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15738.png",
-                    "Title": "\"დოქტორ ბენერი\" მიუსლი ხრაშუნა 375 გრ.\n",
-                    "RegularPrice": 7.45,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/იასნო-სოლნიშკო-შვრიის-ფანტელი-n1--n3-500-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15739.png",
-                    "Title": "\"იასნო სოლნიშკო\" შვრიის ფანტელი N1 ; N3 500 გრ. \n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/როლტონი-ლაფშა-60-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15740.png",
-                    "Title": "\"როლტონი\" ლაფშა 60 გრ.\n",
-                    "RegularPrice": 1.1,
-                    "FinalPrice": 0.69
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ბრივაისი-თევზის-კონსერვი-კილკა-ჭიჭყინა-ტომატში-240-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15741.png",
-                    "Title": "\"ბრივაისი\" თევზის კონსერვი \"კილკა\" (ჭიჭყინა) ტომატში 240 გრ. \n",
-                    "RegularPrice": 4.3,
-                    "FinalPrice": 3.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/რამირესი-თინუსის-ფილე-საკუთარ-წვენში-120-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15742.png",
-                    "Title": "\"რამირესი\" თინუსის ფილე საკუთარ წვენში 120 გრ.\n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ემბორგი-კრევეტი-2630-3140-გასუფთავებული-კუდით-300-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15743.png",
-                    "Title": "\"ემბორგი\" კრევეტი 26/30; 31/40 გასუფთავებული კუდით 300 გრ. \n",
-                    "RegularPrice": 36,
-                    "FinalPrice": 24.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/მასტერი-ჩირი-შავი-ქლიავის-140-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15744.png",
-                    "Title": "\"მასტერი\" ჩირი შავი ქლიავის 140 გრ. \n",
-                    "RegularPrice": 11.95,
-                    "FinalPrice": 8.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/relax-კოქტეილი-330-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15745.png",
-                    "Title": "\"relax\" კოქტეილი 330 მლ.\n",
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/თევზეული/ბრივაისი-თევზის-პაშტეტი--ქაშაყის-100-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15771.png",
+                    "Title": "\"ბრივაისი\" თევზის პაშტეტი , ქაშაყის 100 გრ.\n",
                     "RegularPrice": 4.95,
                     "FinalPrice": 3.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/პრემიო-თევზი-ორაგულის-სტეიკი-700-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15587.png",
-                    "Title": "\"პრემიო\" თევზი \"ორაგულის სტეიკი\" 700 გრ.\n",
-                    "RegularPrice": 18.95,
-                    "FinalPrice": 16.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/ელ-საბორ-ჩიფსი-ნაჩო-225-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15772.png",
+                    "Title": "\"ელ საბორ\" ჩიფსი \"ნაჩო\" 225 გრ. \n",
+                    "RegularPrice": 6.35,
+                    "FinalPrice": 4.69
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/toys/სათამაშო-მანქანა",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15722.png",
-                    "Title": "სათამაშო მანქანა\n",
-                    "RegularPrice": 40,
-                    "FinalPrice": 30.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/მასტერი-გარგრის-ჩირი-140-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15773.png",
+                    "Title": "\"მასტერი\" გარგრის ჩირი 140 გრ. \n",
+                    "RegularPrice": 9.89,
+                    "FinalPrice": 8.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/შედრო-მაიონეზი-პროვანსალი-72-350-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15724.png",
-                    "Title": "\"შედრო\" მაიონეზი \"პროვანსალი\" 72% 350 გრ. \n",
-                    "RegularPrice": 4.99,
-                    "FinalPrice": 3.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/გაზიანი-სასმელი-1-ლ---",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15774.png",
+                    "Title": "გაზიანი სასმელი 1 ლ.   \n",
+                    "RegularPrice": 2.6,
+                    "FinalPrice": 1.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/კრემბურგი-მდნარი-სამკუთხა-ყველი-45-130-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15725.png",
-                    "Title": "\"კრემბურგი\" მდნარი სამკუთხა ყველი 45% 130 გრ. \n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-საწრუპით",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15775.png",
+                    "Title": "ჭიქა საწრუპით\n",
+                    "RegularPrice": 3.5,
+                    "FinalPrice": 2.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ვირჯილიო-ყველი-მასკაპონე-250-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15726.png",
-                    "Title": "\"ვირჯილიო\" ყველი \"მასკაპონე\" 250 გრ.\n",
-                    "RegularPrice": 11.99,
-                    "FinalPrice": 7.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ლუდის-ჭიქა-400-მლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15776.png",
+                    "Title": "ლუდის ჭიქა 400 მლ.\n",
+                    "RegularPrice": 5,
+                    "FinalPrice": 3.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ვირჯილიო-ნაღები-36-1000-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15727.png",
-                    "Title": "\"ვირჯილიო\" ნაღები 36% 1000 მლ.\n",
-                    "RegularPrice": 24.99,
-                    "FinalPrice": 16.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ქლიარი-შამპუნი-კაცისქალის-380-მლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15777.png",
+                    "Title": "\"ქლიარი\" შამპუნი კაცის/ქალის 380 მლ.\n",
+                    "RegularPrice": 14.9,
+                    "FinalPrice": 10.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სნიკერსი-ნაყინი-ესკიმო-735-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15728.png",
-                    "Title": "\"სნიკერსი\" ნაყინი \"ესკიმო\" 73,5 გრ.\n",
-                    "RegularPrice": 5.5,
-                    "FinalPrice": 3.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/პალმოლივი-საპონი-თხევადი-ზეთისხილის-300-მლ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15778.png",
+                    "Title": "\"პალმოლივი\" საპონი თხევადი ზეთისხილის 300 მლ. \n",
+                    "RegularPrice": 8.7,
+                    "FinalPrice": 6.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ორეო-ნაყინი-კონუსი-120-მლ-11-ც",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15729.png",
-                    "Title": "\"ორეო\" ნაყინი კონუსი 120 მლ. 1+1 ც.\n",
-                    "RegularPrice": 9.98,
-                    "FinalPrice": 4.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/textile/ჩაის-ტილო",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15779.png",
+                    "Title": "ჩაის ტილო\n",
+                    "RegularPrice": 5,
+                    "FinalPrice": 3.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანტე-protein-bar-33-50-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15730.png",
-                    "Title": "\"სანტე\" Protein Bar 33% 50 გრ.\n",
-                    "RegularPrice": 4.2,
-                    "FinalPrice": 2.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ელდორადო-კიტრის-მარინადი-720-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15546.png",
+                    "Title": "\"ელდორადო\" კიტრის მარინადი 720 გრ.\n",
+                    "RegularPrice": 5.99,
+                    "FinalPrice": 3.89
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ჰიბი-შოკოლადის-ბატონი-100-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15731.png",
-                    "Title": "\"ჰიბი\" შოკოლადის ბატონი 100 გრ.\n",
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბარამბო-შოკოლადის-ფილა-90-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15606.png",
+                    "Title": "\"ბარამბო\" შოკოლადის ფილა 90 გრ. \n",
                     "RegularPrice": 3.99,
                     "FinalPrice": 2.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბარონი-შოკოლადის-ნაკრები-დელიკადორე-200-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15732.png",
-                    "Title": "\"ბარონი\" შოკოლადის ნაკრები \"დელიკადორე\" 200 გრ. \n",
-                    "RegularPrice": 7.95,
-                    "FinalPrice": 5.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ორეო-ორცხობილა-228-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15733.png",
-                    "Title": "\"ორეო\" ორცხობილა 228 გრ.\n",
-                    "RegularPrice": 7.99,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/დოქი-მინის--თავსახურით-1-ლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15721.png",
+                    "Title": "დოქი მინის , თავსახურით 1 ლ.\n",
+                    "RegularPrice": 6.9,
                     "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/კვიძინი-ბარდის-კონსერვი-400-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15411.png",
-                    "Title": "\"კვიძინი\" ბარდის კონსერვი 400 გრ.\n",
-                    "RegularPrice": 4.5,
-                    "FinalPrice": 3.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ლუნსკოე-მორე-კიბორჩხალის-ჩხირი-200-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15429.png",
-                    "Title": "\"ლუნსკოე მორე\" კიბორჩხალის ჩხირი 200 გრ.\n",
-                    "RegularPrice": 6.45,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/მილკა-ვაფლი-ვაფელინი-155-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15449.png",
-                    "Title": "\"მილკა\" ვაფლი \"ვაფელინი\" 155 გრ.\n",
-                    "RegularPrice": 7.6899999999999995,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/textile/პირსახოცი-50x90-სმ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15482.png",
-                    "Title": "პირსახოცი 50X90 სმ.\n",
-                    "RegularPrice": 9,
-                    "FinalPrice": 5.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/თოლია-ნაყინი-ინდიგო-80-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15490.png",
-                    "Title": "\"თოლია\" ნაყინი \"ინდიგო\" 80 გრ.\n",
-                    "RegularPrice": 2.9,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ბოთლი-მინის-ფერადი-1-ლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15508.png",
-                    "Title": "ბოთლი მინის, ფერადი 1 ლ.\n",
-                    "RegularPrice": 7,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/კომბოსტოს-რულეტი-100-გრ-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15523.png",
-                    "Title": "კომბოსტოს რულეტი 100 გრ.-აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 1.85,
-                    "FinalPrice": 1.5899999999999999
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ლუნსკოე-მორე-ხიზილალის-კარაქი-170-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15540.png",
-                    "Title": "\"ლუნსკოე მორე\" ხიზილალის კარაქი 170 გრ. \n",
-                    "RegularPrice": 9.95,
-                    "FinalPrice": 5.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/მარესი-ცივი-ყავა-230-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15561.png",
-                    "Title": "\"მარესი\" ცივი ყავა 230 მლ.\n",
-                    "RegularPrice": 5.49,
-                    "FinalPrice": 3.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/პანჩ-ქლაბი-არაყი-05-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15564.png",
-                    "Title": "\"პანჩ ქლაბი\" არაყი 0,5 ლ. \n",
-                    "RegularPrice": 24.79,
-                    "FinalPrice": 16.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სანტინო-არაჟანი-20-350-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15578.png",
-                    "Title": "\"სანტინო\" არაჟანი 20% 350 გრ.\n",
-                    "RegularPrice": 4.99,
-                    "FinalPrice": 3.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/რჩეული-რძე-ულტრაპასტერიზებული-25-950-მლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15579.png",
-                    "Title": "\"რჩეული\" რძე ულტრაპასტერიზებული 2,5% 950 მლ. \n",
-                    "RegularPrice": 5.65,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბალსენი-ორცხობილა-ჰიტი-220-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14236.png",
-                    "Title": "\"ბალსენი\" ორცხობილა \"ჰიტი\" 220 გრ. \n",
-                    "RegularPrice": 5.95,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/pastry-food/ტორტი-ტრიუფელის",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14428.png",
-                    "Title": "ტორტი ტრიუფელის -  აქცია ვრცელდება მხოლოდ  XLის ფილიალებში\n",
-                    "RegularPrice": 24,
-                    "FinalPrice": 20.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ლობიანი-წიწაკით-1-ც---აქცია-ვრცელდება-მხოლოდ-ნიკორა-xlში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14552.png",
-                    "Title": "ლობიანი წიწაკით 1 ც. - აქცია ვრცელდება მხოლოდ ნიკორა XL_ში\n",
-                    "RegularPrice": 2.5,
-                    "FinalPrice": 2.19
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სანტისიმო-იოგურტი-დასალევი-25-290-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14739.png",
-                    "Title": "\"სანტისიმო\" იოგურტი დასალევი 2,5% 290 გრ.\n",
-                    "RegularPrice": 3.35,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/pastry-food/ნამცხვარი-ტირამისუ-იტალიური-1ნაჭ-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14816.png",
-                    "Title": "ნამცხვარი \"ტირამისუ იტალიური\" 1ნაჭ.-აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 4,
-                    "FinalPrice": 3.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/ელ-საბორ-ჩიფსი-ნაჩო-100-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14865.png",
-                    "Title": "\"ელ საბორ\" ჩიფსი \"ნაჩო\" 100 გრ. \n",
-                    "RegularPrice": 3.45,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ბრინჯის-სალათი-მექსიკურად-100-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14885.png",
-                    "Title": "ბრინჯის სალათი მექსიკურად 100 გრ. - აქცია ვრცელდება მხოლოდ ნიკორა XL- ში.\n",
-                    "RegularPrice": 1.55,
-                    "FinalPrice": 1.3900000000000001
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ივერია-წიწიბურა-800-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14903.png",
-                    "Title": "\"ივერია\" წიწიბურა 800 გრ. \n",
-                    "RegularPrice": 4.25,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/რუსკი-სტანდარტი-არაყი-1-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14909.png",
-                    "Title": "\"რუსკი სტანდარტი\" არაყი 1 ლ. \n",
-                    "RegularPrice": 44.9,
-                    "FinalPrice": 35.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/სლობოდა-მზესუმზირის-ზეთი-1-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15052.png",
-                    "Title": "\"სლობოდა\" მზესუმზირის ზეთი 1 ლ. \n",
-                    "RegularPrice": 5.85,
-                    "FinalPrice": 5.59
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/ლეისი-ჩიფსი-657181-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15073.png",
-                    "Title": "\"ლეისი\" ჩიფსი 65/71/81 გრ. \n",
-                    "RegularPrice": 3.45,
-                    "FinalPrice": 1.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/დომესტოსი-უნივერსალური-საწმენდი-საშუალება-750-მლ--",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15203.png",
-                    "Title": "\"დომესტოსი\" უნივერსალური საწმენდი საშუალება 750 მლ.  \n",
-                    "RegularPrice": 6.5,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-წვენის-340-მლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15749.png",
-                    "Title": "ჭიქა წვენის, 340 მლ. \n",
-                    "RegularPrice": 6,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-საწრუპით-პლასტმასის-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15748.png",
-                    "Title": "ჭიქა საწრუპით, პლასტმასის \n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/კაკაოლატი-კაკაოს-რძიანი-კოქტეილი-200-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15747.png",
-                    "Title": "\"კაკაოლატი\" კაკაოს რძიანი კოქტეილი 200 მლ.\n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.29
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/relax-კოქტეილი-330-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15745.png",
-                    "Title": "\"relax\" კოქტეილი 330 მლ.\n",
-                    "RegularPrice": 4.95,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/მოკატე-ორცხობილა-160-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15734.png",
-                    "Title": "\"მოკატე\" ორცხობილა 160 გრ.\n",
-                    "RegularPrice": 5.5,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ქელოგს-ბურბუშელა-სიმინდის-დინოზავრები-220-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15737.png",
-                    "Title": "\"ქელოგს\" ბურბუშელა სიმინდის \"დინოზავრები\" 220 გრ. \n",
-                    "RegularPrice": 6.1,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ტკბილი-ქვეყანა-ორცხობილა-ბრაუნი-500-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15736.png",
-                    "Title": "\"ტკბილი ქვეყანა\" ორცხობილა \"ბრაუნი\" 500 გრ.\n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანდომი-ორცხობილა-ფორთოხლის-ჯემით-480-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15735.png",
-                    "Title": "\"სანდომი\" ორცხობილა ფორთოხლის ჯემით 480 გრ.\n",
-                    "RegularPrice": 6.99,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/დოქტორ-ბენერი-მიუსლი-ხრაშუნა-375-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15738.png",
-                    "Title": "\"დოქტორ ბენერი\" მიუსლი ხრაშუნა 375 გრ.\n",
-                    "RegularPrice": 7.45,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ორეო-ორცხობილა-228-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15733.png",
-                    "Title": "\"ორეო\" ორცხობილა 228 გრ.\n",
-                    "RegularPrice": 7.99,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბარონი-შოკოლადის-ნაკრები-დელიკადორე-200-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15732.png",
-                    "Title": "\"ბარონი\" შოკოლადის ნაკრები \"დელიკადორე\" 200 გრ. \n",
-                    "RegularPrice": 7.95,
-                    "FinalPrice": 5.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სნიკერსი-ნაყინი-ესკიმო-735-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15728.png",
-                    "Title": "\"სნიკერსი\" ნაყინი \"ესკიმო\" 73,5 გრ.\n",
-                    "RegularPrice": 5.5,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ორეო-ნაყინი-კონუსი-120-მლ-11-ც",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15729.png",
-                    "Title": "\"ორეო\" ნაყინი კონუსი 120 მლ. 1+1 ც.\n",
-                    "RegularPrice": 9.98,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანტე-protein-bar-33-50-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15730.png",
-                    "Title": "\"სანტე\" Protein Bar 33% 50 გრ.\n",
-                    "RegularPrice": 4.2,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ქლიარი-შამპუნი-180-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15751.png",
-                    "Title": "\"ქლიარი\" შამპუნი 180 მლ.\n",
-                    "RegularPrice": 8.2,
-                    "FinalPrice": 6.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/relax-კოქტეილი-330-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15745.png",
-                    "Title": "\"relax\" კოქტეილი 330 მლ.\n",
-                    "RegularPrice": 4.95,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/კაკაოლატი-კაკაოს-რძიანი-კოქტეილი-200-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15747.png",
-                    "Title": "\"კაკაოლატი\" კაკაოს რძიანი კოქტეილი 200 მლ.\n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.29
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-საწრუპით-პლასტმასის-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15748.png",
-                    "Title": "ჭიქა საწრუპით, პლასტმასის \n",
-                    "RegularPrice": 3.5,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ჭიქა-წვენის-340-მლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15749.png",
-                    "Title": "ჭიქა წვენის, 340 მლ. \n",
-                    "RegularPrice": 6,
-                    "FinalPrice": 2.99
                 },
                 {
                     "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/აქსესუარები/შლოპანცი",
@@ -568,196 +134,307 @@
                     "FinalPrice": 6.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ხვეულა-ყველი-ჩედარით-1-ც-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15757.png",
-                    "Title": "ხვეულა ყველი ჩედარით 1 ც.-აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 2.95,
-                    "FinalPrice": 2.59
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/შედრო-კეტჩუპი-250-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15759.png",
+                    "Title": "\"შედრო\" კეტჩუპი 250 გრ.\n",
+                    "RegularPrice": 2.99,
+                    "FinalPrice": 2.19
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ნუა-სამზარეულოს-ხელსახოცი-1-ც-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15756.png",
-                    "Title": "\"ნუა\" სამზარეულოს ხელსახოცი 1 ც. \n",
-                    "RegularPrice": 4.4,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/პანჩ-ქლაბი-არაყი-05-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15564.png",
-                    "Title": "\"პანჩ ქლაბი\" არაყი 0,5 ლ. \n",
-                    "RegularPrice": 24.79,
-                    "FinalPrice": 16.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/მარესი-ცივი-ყავა-230-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15561.png",
-                    "Title": "\"მარესი\" ცივი ყავა 230 მლ.\n",
-                    "RegularPrice": 5.49,
-                    "FinalPrice": 3.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ლუნსკოე-მორე-კიბორჩხალის-ჩხირი-200-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15429.png",
-                    "Title": "\"ლუნსკოე მორე\" კიბორჩხალის ჩხირი 200 გრ.\n",
-                    "RegularPrice": 6.45,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/რუნა-სოუსი-240-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15760.png",
+                    "Title": "\"რუნა\" სოუსი 240 გრ. \n",
+                    "RegularPrice": 4.99,
                     "FinalPrice": 3.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ივერია-წიწიბურა-800-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14903.png",
-                    "Title": "\"ივერია\" წიწიბურა 800 გრ. \n",
-                    "RegularPrice": 4.25,
-                    "FinalPrice": 2.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/რუსკი-სტანდარტი-არაყი-1-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14909.png",
-                    "Title": "\"რუსკი სტანდარტი\" არაყი 1 ლ. \n",
-                    "RegularPrice": 44.9,
-                    "FinalPrice": 35.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/სლობოდა-მზესუმზირის-ზეთი-1-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15052.png",
-                    "Title": "\"სლობოდა\" მზესუმზირის ზეთი 1 ლ. \n",
-                    "RegularPrice": 5.85,
-                    "FinalPrice": 5.59
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/ლეისი-ჩიფსი-657181-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15073.png",
-                    "Title": "\"ლეისი\" ჩიფსი 65/71/81 გრ. \n",
-                    "RegularPrice": 3.45,
-                    "FinalPrice": 1.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/დომესტოსი-უნივერსალური-საწმენდი-საშუალება-750-მლ--",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15203.png",
-                    "Title": "\"დომესტოსი\" უნივერსალური საწმენდი საშუალება 750 მლ.  \n",
-                    "RegularPrice": 6.5,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ქინგ-რაჯა-ბრინჯი-ბასმათი-1000-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15761.png",
+                    "Title": "\"ქინგ რაჯა\" ბრინჯი \"ბასმათი\" 1000 გრ. \n",
+                    "RegularPrice": 9.8,
                     "FinalPrice": 4.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/კვიძინი-ბარდის-კონსერვი-400-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15411.png",
-                    "Title": "\"კვიძინი\" ბარდის კონსერვი 400 გრ.\n",
-                    "RegularPrice": 4.5,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/უველკა-შვრიის-ფანტელი-გარგრით-240-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15763.png",
+                    "Title": "\"უველკა\" შვრიის ფანტელი გარგრით 240 გრ.\n",
+                    "RegularPrice": 5.49,
+                    "FinalPrice": 2.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/გრან-ბირაგი-ყველი-გახეხილი-100-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15764.png",
+                    "Title": "\"გრან ბირაგი\" ყველი გახეხილი 100 გრ. \n",
+                    "RegularPrice": 7.99,
+                    "FinalPrice": 5.89
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სვით-ბოქსი-მარმელადი-10-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15765.png",
+                    "Title": "\"სვით ბოქსი\" მარმელადი 10 გრ.\n",
+                    "RegularPrice": 9.1,
+                    "FinalPrice": 5.49
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სნიკერსი-შოკოლადის-ბატონი-50-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15766.png",
+                    "Title": "\"სნიკერსი\" შოკოლადის ბატონი 50 გრ.\n",
+                    "RegularPrice": 2.15,
+                    "FinalPrice": 1.69
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ყავა-ჩაი/ლოიდ-ჩაი-შავი-ჟოლოს-და-მარწყვის-არომატით-20-ც-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15124.png",
+                    "Title": "\"ლოიდ\" ჩაი შავი ჟოლოს და მარწყვის არომატით 20 ც. \n",
+                    "RegularPrice": 4.79,
                     "FinalPrice": 3.49
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/თოლია-ნაყინი-ინდიგო-80-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15490.png",
-                    "Title": "\"თოლია\" ნაყინი \"ინდიგო\" 80 გრ.\n",
-                    "RegularPrice": 2.9,
-                    "FinalPrice": 2.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/კომბოსტოს-რულეტი-100-გრ-აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15523.png",
-                    "Title": "კომბოსტოს რულეტი 100 გრ.-აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
-                    "RegularPrice": 1.85,
-                    "FinalPrice": 1.5899999999999999
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/kitchen-accessories/ბოთლი-მინის-ფერადი-1-ლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15508.png",
-                    "Title": "ბოთლი მინის, ფერადი 1 ლ.\n",
-                    "RegularPrice": 7,
-                    "FinalPrice": 4.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/შედრო-მაიონეზი-პროვანსალი-72-350-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15724.png",
-                    "Title": "\"შედრო\" მაიონეზი \"პროვანსალი\" 72% 350 გრ. \n",
-                    "RegularPrice": 4.99,
-                    "FinalPrice": 3.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/უალკოჰოლო-სასმელი/მარესი-ცივი-ყავა-230-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15561.png",
-                    "Title": "\"მარესი\" ცივი ყავა 230 მლ.\n",
-                    "RegularPrice": 5.49,
-                    "FinalPrice": 3.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/პანჩ-ქლაბი-არაყი-05-ლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15564.png",
-                    "Title": "\"პანჩ ქლაბი\" არაყი 0,5 ლ. \n",
-                    "RegularPrice": 24.79,
-                    "FinalPrice": 16.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სანტინო-არაჟანი-20-350-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15578.png",
-                    "Title": "\"სანტინო\" არაჟანი 20% 350 გრ.\n",
-                    "RegularPrice": 4.99,
-                    "FinalPrice": 3.89
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/რჩეული-რძე-ულტრაპასტერიზებული-25-950-მლ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15579.png",
-                    "Title": "\"რჩეული\" რძე ულტრაპასტერიზებული 2,5% 950 მლ. \n",
-                    "RegularPrice": 5.65,
-                    "FinalPrice": 4.49
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/პრემიო-თევზი-ორაგულის-სტეიკი-700-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15587.png",
-                    "Title": "\"პრემიო\" თევზი \"ორაგულის სტეიკი\" 700 გრ.\n",
-                    "RegularPrice": 18.95,
-                    "FinalPrice": 16.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/toys/სათამაშო-მანქანა",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15722.png",
-                    "Title": "სათამაშო მანქანა\n",
-                    "RegularPrice": 40,
-                    "FinalPrice": 30.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ვირჯილიო-ნაღები-36-1000-მლ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15727.png",
-                    "Title": "\"ვირჯილიო\" ნაღები 36% 1000 მლ.\n",
-                    "RegularPrice": 24.99,
-                    "FinalPrice": 16.99
-                },
-                {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანტე-protein-bar-33-50-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15730.png",
-                    "Title": "\"სანტე\" Protein Bar 33% 50 გრ.\n",
-                    "RegularPrice": 4.2,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/მაილო-ხელსახოცი-100-ც-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15136.png",
+                    "Title": "\"მაილო\" ხელსახოცი 100 ც. \n",
+                    "RegularPrice": 3.9,
                     "FinalPrice": 2.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/ორეო-ნაყინი-კონუსი-120-მლ-11-ც",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15729.png",
-                    "Title": "\"ორეო\" ნაყინი კონუსი 120 მლ. 1+1 ც.\n",
-                    "RegularPrice": 9.98,
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/სანტე-მიწის-თხილის-კარაქი-350-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15160.png",
+                    "Title": "\"სანტე\" მიწის თხილის კარაქი 350 გრ.\n",
+                    "RegularPrice": 10.99,
+                    "FinalPrice": 6.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ბარაქა-მზესუმზირის-ზეთი-1-ლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15180.png",
+                    "Title": "\"ბარაქა\" მზესუმზირის ზეთი 1 ლ.\n",
+                    "RegularPrice": 5.9,
+                    "FinalPrice": 3.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/პრემიო-თევზი-ხეკი-1-კგ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15185.png",
+                    "Title": "\"პრემიო\" თევზი \"ხეკი\" 1 კგ.\n",
+                    "RegularPrice": 12.45,
+                    "FinalPrice": 9.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ტკბილი-ქვეყანა-თაფლკვერი-ჯემით-500-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15193.png",
+                    "Title": "\"ტკბილი ქვეყანა\" თაფლკვერი ჯემით 500 გრ.\n",
+                    "RegularPrice": 5.1,
+                    "FinalPrice": 3.89
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/კრემბურგი-მდნარი-ყველი-ნაღების-35-190-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15224.png",
+                    "Title": "\"კრემბურგი\" მდნარი ყველი ნაღების 35% 190 გრ. \n",
+                    "RegularPrice": 8.99,
+                    "FinalPrice": 5.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ლუნსკოე-მორე-კიბორჩხალის-ჩხირი-200-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15364.png",
+                    "Title": "\"ლუნსკოე მორე\" კიბორჩხალის ჩხირი 200 გრ.\n",
+                    "RegularPrice": 6.95,
                     "FinalPrice": 4.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სნიკერსი-ნაყინი-ესკიმო-735-გრ",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15728.png",
-                    "Title": "\"სნიკერსი\" ნაყინი \"ესკიმო\" 73,5 გრ.\n",
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სამი-დათვი-ნაყინი-მონაკო-110-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15456.png",
+                    "Title": "\"სამი დათვი\" ნაყინი \"მონაკო\" 110 გრ.\n",
+                    "RegularPrice": 5.99,
+                    "FinalPrice": 3.89
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/მილკასა-რძე-ულტრაპასტერიზებული-15--35-1-ლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15464.png",
+                    "Title": "\"მილკასა\" რძე ულტრაპასტერიზებული 1,5% ; 3,5% 1 ლ.\n",
+                    "RegularPrice": 5.49,
+                    "FinalPrice": 3.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სნეკი/იაუ-სუხარიკი-ბაგეტის-100-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15503.png",
+                    "Title": "\"იაუ\" სუხარიკი ბაგეტის 100 გრ.\n",
+                    "RegularPrice": 2.45,
+                    "FinalPrice": 1.89
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/როლტონი-ლაფშა-90-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15545.png",
+                    "Title": "\"როლტონი\" ლაფშა 90 გრ. \n",
+                    "RegularPrice": 2.8,
+                    "FinalPrice": 1.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ოლვეისი-ჰიგიენური-საფენი--ულტრა-ნორმალი-10-ც-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14119.png",
+                    "Title": "\"ოლვეისი\" ჰიგიენური საფენი  \"ულტრა ნორმალი\" 10 ც. \n",
+                    "RegularPrice": 9.05,
+                    "FinalPrice": 6.19
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/ბიბილო-ქათმის-ბარკალი-1-კგ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14147.png",
+                    "Title": "\"ბიბილო\" ქათმის ბარკალი 1 კგ.\n",
+                    "RegularPrice": 7.95,
+                    "FinalPrice": 5.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ტკბილი-ქვეყანა-ვაფლის-ჩხირი-აკინაკი-400-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14166.png",
+                    "Title": "\"ტკბილი ქვეყანა\" ვაფლის ჩხირი \"აკინაკი\" 400 გრ.\n",
+                    "RegularPrice": 5.49,
+                    "FinalPrice": 3.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/-პალომა-ნაყინი-450-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14192.png",
+                    "Title": " \"პალომა\" ნაყინი 450 გრ.\n",
+                    "RegularPrice": 7.8,
+                    "FinalPrice": 5.49
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/კრუშოვიცე-ლუდი-25-ლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14193.png",
+                    "Title": "\"კრუშოვიცე\" ლუდი 2,5 ლ.\n",
+                    "RegularPrice": 11.75,
+                    "FinalPrice": 7.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/გაყინული-პროდუქცია/მზარეული-ბლინი-ხორცით-8-ც",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14200.png",
+                    "Title": "\"მზარეული\" ბლინი ხორცით 8 ც.\n",
+                    "RegularPrice": 5.75,
+                    "FinalPrice": 4.39
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ღვეზელი-კარტოფილის-ნფ-1-ც",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14394.png",
+                    "Title": "ღვეზელი კარტოფილის ნ/ფ. 1 ც. აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
+                    "RegularPrice": 1.95,
+                    "FinalPrice": 1.69
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/როშენი-ვაფლი-ვაფერსი-216-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14550.png",
+                    "Title": "\"როშენი\" ვაფლი \"ვაფერსი\" 216 გრ.\n",
+                    "RegularPrice": 4.65,
+                    "FinalPrice": 2.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/სანტინო-კარაქი-ნაღების-82--400-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14729.png",
+                    "Title": "\"სანტინო\" კარაქი ნაღების 82%  400 გრ. \n",
+                    "RegularPrice": 18.49,
+                    "FinalPrice": 11.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/დანზკა-არაყი-1-ლ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14751.png",
+                    "Title": "\"დანზკა\" არაყი 1 ლ.\n",
+                    "RegularPrice": 52.99,
+                    "FinalPrice": 34.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/ბარამბო-ვაფლის-ტორტი-ჰარმონია-220-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14767.png",
+                    "Title": "\"ბარამბო\" ვაფლის ტორტი \"ჰარმონია\" 220 გრ. \n",
+                    "RegularPrice": 5.2,
+                    "FinalPrice": 3.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/რძის-პროდუქტებიკვერცხი/მევგალი-იოგურტი-ბერძნული-150-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15120.png",
+                    "Title": "\"მევგალი\" იოგურტი ბერძნული 150 გრ.\n",
+                    "RegularPrice": 3.99,
+                    "FinalPrice": 2.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ბონდუელი-სიმინდის-კონსერვი-425-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/12881.png",
+                    "Title": "\"ბონდუელი\" სიმინდის კონსერვი 425 გრ. \n",
+                    "RegularPrice": 6.4,
+                    "FinalPrice": 4.29
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/უველკა-წიწიბურა-800-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13302.png",
+                    "Title": "\"უველკა\" წიწიბურა 800 გრ.\n",
+                    "RegularPrice": 6.99,
+                    "FinalPrice": 3.89
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ბონდუელი-ბარდის-კონსერვი-425-გრ--",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13456.png",
+                    "Title": "\"ბონდუელი\" ბარდის კონსერვი 425 გრ.  \n",
+                    "RegularPrice": 6.4,
+                    "FinalPrice": 4.29
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ალკოჰოლური-სასმელი/სარაჯიშვილი-კონიაკი-5-05-ლ--",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13476.png",
+                    "Title": "\"სარაჯიშვილი\" კონიაკი 5* 0,5 ლ.  \n",
+                    "RegularPrice": 32.5,
+                    "FinalPrice": 22.49
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/pastry-food/ფუნთუშა-ნაწნავი-1-ც----აქცია-ვრცელდება-მხოლოდ-ნიკორა-xl-ის-ფილიალებში-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13494.png",
+                    "Title": "ფუნთუშა \"ნაწნავი\" 1 ც. -  აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში \n",
+                    "RegularPrice": 2.5,
+                    "FinalPrice": 2.19
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ფიამმა-მაკარონი-500-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13562.png",
+                    "Title": "\"ფიამმა\" მაკარონი 500 გრ. \n",
+                    "RegularPrice": 4.4,
+                    "FinalPrice": 3.49
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/პანე-კექსი-ქიშმიშით-270-გრ-",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13903.png",
+                    "Title": "\"პანე\" კექსი ქიშმიშით 270 გრ. \n",
+                    "RegularPrice": 5.49,
+                    "FinalPrice": 3.99
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/საყოფაცხოვრებო-ქიმია/ორეი-დელუქსი-საპირფარეშოს-ქაღალდი-4-ც",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13935.png",
+                    "Title": "\"ორეი დელუქსი\" საპირფარეშოს ქაღალდი 4 ც.\n",
                     "RegularPrice": 5.5,
                     "FinalPrice": 3.99
                 },
                 {
-                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/processedtinned-food-ბაკალეაკონსერვაცია/ლუნსკოე-მორე-ხიზილალის-კარაქი-170-გრ-",
-                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/15540.png",
-                    "Title": "\"ლუნსკოე მორე\" ხიზილალის კარაქი 170 გრ. \n",
-                    "RegularPrice": 9.95,
-                    "FinalPrice": 5.99
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/სალათები-მზა-კვება/ლობიანი-ლორით-1-ც",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13950.png",
+                    "Title": "ლობიანი ლორით 1 ც. - აქცია ვრცელდება მხოლოდ \"ნიკორა XL\"-ის ფილიალებში\n",
+                    "RegularPrice": 2.95,
+                    "FinalPrice": 2.59
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ხორც-პროდუქტები/ნიკორა-მოხარშული-ძეხვი-საქონლის-1-კგ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13969.png",
+                    "Title": "\"ნიკორა\" მოხარშული ძეხვი საქონლის 1 კგ.\n",
+                    "RegularPrice": 17.4,
+                    "FinalPrice": 14.79
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სანდომი-შვრიის-ნამცხვარი-360-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/13997.png",
+                    "Title": "\"სანდომი\" შვრიის ნამცხვარი 360 გრ.\n",
+                    "RegularPrice": 5.95,
+                    "FinalPrice": 4.29
+                },
+                {
+                    "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი/ტკბილეული/სევენ-დეისი-კრუასანი-მინი-185-გრ",
+                    "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/14026.png",
+                    "Title": "\"სევენ დეისი\" კრუასანი \"მინი\" 185 გრ.\n",
+                    "RegularPrice": 6.75,
+                    "FinalPrice": 4.49
                 }
             ]
-        },
-        {
-            "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/სეზონური-კატალოგი",
-            "Place": "Nikora",
-            "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/4_catalogue.jpg",
-            "Title": "სეზონური-კატალოგი",
-            "Description": "",
-            "Goods": null
         }
     ]
 }

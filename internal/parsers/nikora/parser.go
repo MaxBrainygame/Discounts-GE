@@ -3,6 +3,7 @@ package nikora
 import (
 	"fmt"
 	"log"
+	"math"
 	"strconv"
 	"strings"
 
@@ -45,10 +46,13 @@ func NewParser() parsers.ParseDiscounter {
 func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.CategoryStores) (*model.Store, error) {
 
 	var (
-		store     model.Store
-		discounts []model.Discount
-		discount  model.Discount
+		store            model.Store
+		discounts        []model.Discount
+		discount         model.Discount
+		refDiscountsItem map[string]struct{}
 	)
+
+	refDiscountsItem = make(map[string]struct{})
 
 	// Page with promotions
 	p.Collector.OnHTML("div.cp54.lg_5_5.lp_5_5.md_5_5.sm_12.xs_12", func(h *colly.HTMLElement) {
@@ -84,6 +88,11 @@ func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.Categor
 	p.Collector.OnHTML("div.lg_4.lp_6.md_6.sm_6.xs_12.animate_block_when_see.cp100", func(h *colly.HTMLElement) {
 
 		ref := fmt.Sprint(p.UrlHost, h.ChildAttr("a", "href"))
+		_, exist := refDiscountsItem[ref]
+		if exist {
+			return
+		}
+		refDiscountsItem[ref] = struct{}{}
 
 		regularPrice, err := p.getPrice(h, ".cp17.col_padding .old .lari", ".cp105")
 		if err != nil {
@@ -147,6 +156,7 @@ func (p *parserDiscount) getPrice(h *colly.HTMLElement, containerSelector string
 	}
 
 	price = intPart + (fractPart / 100)
+	price = math.Round(price*100) / 100
 
 	return
 }
