@@ -1,31 +1,28 @@
 package main
 
 import (
-	"context"
 	"encoding/json"
-	"errors"
-	"io/ioutil"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
-	"os/signal"
 	"strings"
-	"syscall"
-	"time"
 
+	"github.com/MaxBrainygame/Discounts-GE/internal/config"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
 
 func categories(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
-
+	langCode := r.URL.Query().Get("lang")
+	fmt.Println(langCode)
 	var (
 		storeAversi     model.Store
 		storeNikora     model.Store
 		categoriesStore []model.CategoryStores
 	)
-	file, err := ioutil.ReadFile("DiscountsAversi.json")
+	file, err := os.ReadFile("DiscountsAversi.json")
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -34,7 +31,7 @@ func categories(w http.ResponseWriter, r *http.Request) {
 		log.Fatalf("Error happened JSON unmarhall")
 	}
 
-	file, err = ioutil.ReadFile("DiscountsNikora.json")
+	file, err = os.ReadFile("DiscountsNikora.json")
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -66,7 +63,7 @@ func stores(w http.ResponseWriter, r *http.Request) {
 
 	keyCategory := r.URL.Query().Get("key")
 
-	file, err := ioutil.ReadFile("DiscountsAversi.json")
+	file, err := os.ReadFile("DiscountsAversi.json")
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -75,7 +72,7 @@ func stores(w http.ResponseWriter, r *http.Request) {
 		log.Fatalf("Error happened JSON unmarhall")
 	}
 
-	file, err = ioutil.ReadFile("DiscountsNikora.json")
+	file, err = os.ReadFile("DiscountsNikora.json")
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -113,7 +110,6 @@ func promotions(w http.ResponseWriter, r *http.Request) {
 		store    model.Store
 		fileName string
 	)
-
 	storeHost := r.URL.Query().Get("store")
 	if storeHost == "https://www.aversi.ge" {
 		fileName = "DiscountsAversi.json"
@@ -124,7 +120,7 @@ func promotions(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	file, err := ioutil.ReadFile(fileName)
+	file, err := os.ReadFile(fileName)
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -163,7 +159,7 @@ func products(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	file, err := ioutil.ReadFile(fileName)
+	file, err := os.ReadFile(fileName)
 	if err != nil {
 		log.Fatalf("Error happened read file. Err: %s", err)
 	}
@@ -197,35 +193,35 @@ func products(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	server := &http.Server{
-		Addr: "0.0.0.0:8080",
-	}
+	cfg := config.MustLoad()
 
-	go func() {
-		sigChan := make(chan os.Signal, 1)
-		signal.Notify(sigChan, syscall.SIGINT, syscall.SIGTERM)
-		<-sigChan
+	fmt.Println(cfg)
 
-		shutdownCtx, shutdownRelease := context.WithTimeout(context.Background(), 10*time.Second)
-		defer shutdownRelease()
-
-		if err := server.Shutdown(shutdownCtx); err != nil {
-			log.Fatalf("HTTP shutdown error: %v", err)
-		}
-	}()
-
-	http.HandleFunc("/stores", stores)
-	http.HandleFunc("/promotions", promotions)
-	http.HandleFunc("/products", products)
-	http.HandleFunc("/categories", categories)
-	err := server.ListenAndServe()
-	// err := http.ListenAndServe(":8080", nil)
-	if !errors.Is(err, http.ErrServerClosed) {
-		log.Fatal(err)
-	}
-
-}
-
-func closeApp() {
+	// 	server := &http.Server{
+	// 		Addr: "0.0.0.0:8080",
+	// 	}
+	//
+	// 	go func() {
+	// 		sigChan := make(chan os.Signal, 1)
+	// 		signal.Notify(sigChan, syscall.SIGINT, syscall.SIGTERM)
+	// 		<-sigChan
+	//
+	// 		shutdownCtx, shutdownRelease := context.WithTimeout(context.Background(), 10*time.Second)
+	// 		defer shutdownRelease()
+	//
+	// 		if err := server.Shutdown(shutdownCtx); err != nil {
+	// 			log.Fatalf("HTTP shutdown error: %v", err)
+	// 		}
+	// 	}()
+	//
+	// 	http.HandleFunc("/stores", stores)
+	// 	http.HandleFunc("/promotions", promotions)
+	// 	http.HandleFunc("/products", products)
+	// 	http.HandleFunc("/categories", categories)
+	// 	err := server.ListenAndServe()
+	// 	// err := http.ListenAndServe(":8080", nil)
+	// 	if !errors.Is(err, http.ErrServerClosed) {
+	// 		log.Fatal(err)
+	// 	}
 
 }
