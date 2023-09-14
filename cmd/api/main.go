@@ -4,11 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"log/slog"
 	"net/http"
 	"os"
 	"strings"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/config"
+	"github.com/MaxBrainygame/Discounts-GE/internal/logger"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
 
@@ -195,7 +197,10 @@ func main() {
 
 	cfg := config.MustLoad()
 
-	fmt.Println(cfg)
+	log := logger.SetupLogger(cfg.Env)
+
+	log.Info("starting API - discounts_ge", slog.String("env", cfg.Env))
+	log.Debug("debug enable")
 
 	// 	server := &http.Server{
 	// 		Addr: "0.0.0.0:8080",
