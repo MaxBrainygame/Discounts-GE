@@ -83,7 +83,7 @@ func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.Categor
 			Url:     h.Request.URL.String(),
 			Place:   place,
 			Title:   h.DOM.Find(`h1.entry-title.font-22`).Text(),
-			Picture: getPicture(h),
+			Picture: p.getPicture(h),
 		}
 
 		discounts = append(discounts, discount)
@@ -103,11 +103,11 @@ func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.Categor
 	return &store, nil
 }
 
-func getPicture(h *colly.HTMLElement) (picture string) {
+func (p *parserDiscount) getPicture(h *colly.HTMLElement) (picture string) {
 
 	picture, exists := h.DOM.Find("img.img-fullwidth.img-responsive.aqciis-photo").Attr("src")
 	if exists {
-		picture = fmt.Sprintf("%v%v", urlHost, picture)
+		picture = fmt.Sprintf("%v%v", p.UrlHost, p.UrlHost)
 	}
 
 	return

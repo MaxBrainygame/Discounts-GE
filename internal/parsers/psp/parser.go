@@ -19,6 +19,8 @@ const (
 	productsUrl = "/category/categoryName/products"
 	categoryUrl = "/category/tree"
 	place       = "PSP"
+	logoUrl     = "https://psp.ge/logo.png"
+	typeStore   = "Pharmacy"
 	// Quantity elements in one page
 	itemsPerPage = "600"
 )
@@ -26,10 +28,12 @@ const (
 type parserDiscount struct {
 	Collector    *colly.Collector
 	Place        string
+	LogoUrl      string
 	UrlHost      string
 	ProductsUrl  string
 	CategoryUrl  string
 	ItemsPerPage string
+	TypeStore    string
 }
 
 func NewParser() parsers.ParseDiscounter {
@@ -37,23 +41,33 @@ func NewParser() parsers.ParseDiscounter {
 	return &parserDiscount{
 		Collector:    colly.NewCollector(),
 		Place:        place,
+		LogoUrl:      logoUrl,
 		UrlHost:      urlHost,
 		ProductsUrl:  fmt.Sprint(urlHost, productsUrl),
 		CategoryUrl:  fmt.Sprint(urlHost, categoryUrl),
 		ItemsPerPage: itemsPerPage,
+		TypeStore:    typeStore,
 	}
 }
 
-func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
+func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.CategoryStores) (*model.Store, error) {
 
 	var (
 		discounts []model.Discount
 		discount  model.Discount
+		store     model.Store
 	)
 
 	treeCategories, err := p.getTreeCategories()
 	if err != nil {
-		return &discounts, nil
+		return &store, nil
+	}
+
+	store = model.Store{
+		Name:     p.Place,
+		Logo:     p.LogoUrl,
+		Host:     p.UrlHost,
+		Category: *categoryStores[p.TypeStore],
 	}
 
 	// Starting caterories with Level = 2
@@ -72,7 +86,8 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
 			listProduct, err := p.getProducts(currentPage, category.Id)
 			if err != nil {
-				return &discounts, err
+				store.Discounts = discounts
+				return &store, err
 			}
 
 			for _, product := range listProduct.Data.Items {
@@ -111,7 +126,9 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 
 	}
 
-	return &discounts, nil
+	store.Discounts = discounts
+
+	return &store, nil
 
 }
 

@@ -13,14 +13,18 @@ import (
 const (
 	urlHost     = "https://ch.ge"
 	discountUrl = "/promotions-list.html"
+	logoUrl     = "https://ch.ge/images/logos/3/1872986800.webp"
 	place       = "CleanHouse"
+	typeStore   = "CosmeticsHouseholdCleaningProducts"
 )
 
 type parserDiscount struct {
 	Collector *colly.Collector
 	Place     string
+	LogoUrl   string
 	Url       string
 	UrlHost   string
+	TypeStore string
 }
 
 func NewParser() parsers.ParseDiscounter {
@@ -28,16 +32,19 @@ func NewParser() parsers.ParseDiscounter {
 	return &parserDiscount{
 		Collector: colly.NewCollector(),
 		Place:     place,
+		LogoUrl:   logoUrl,
 		Url:       fmt.Sprint(urlHost, discountUrl),
 		UrlHost:   urlHost,
+		TypeStore: typeStore,
 	}
 }
 
-func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
+func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.CategoryStores) (*model.Store, error) {
 
 	var (
 		discounts []model.Discount
 		discount  model.Discount
+		store     model.Store
 	)
 
 	// Page with promotions
@@ -74,12 +81,12 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 	// Tag with product
 	p.Collector.OnHTML("div.ut2-gl__body", func(h *colly.HTMLElement) {
 
-		regularPrice, err := getPrice(h, ".ut2-gl__price div span .ty-list-price.ty-nowrap .ty-strike span")
+		regularPrice, err := p.getPrice(h, ".ut2-gl__price div span .ty-list-price.ty-nowrap .ty-strike span")
 		if err != nil {
 			log.Printf("Wrong when get regular price in %s. Err: %v", h.ChildAttr("a", "href"), err)
 			return
 		}
-		finalPrice, err := getPrice(h, ".ut2-gl__price div span h2.ty-price span")
+		finalPrice, err := p.getPrice(h, ".ut2-gl__price div span h2.ty-price span")
 		if err != nil {
 			log.Printf("Wrong when get final price in %s. Err: %v", h.ChildAttr("a", "href"), err)
 			return
@@ -88,7 +95,7 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 		discountItem := model.DiscountItem{
 
 			Url:          h.ChildAttr("a", "href"),
-			Picture:      getPicture(h),
+			Picture:      p.getPicture(h),
 			Title:        h.DOM.Find("h4.ut2-gl__name").Text(),
 			RegularPrice: regularPrice,
 			FinalPrice:   finalPrice,
@@ -102,10 +109,19 @@ func (p *parserDiscount) ParseDiscounts() (*[]model.Discount, error) {
 	// Add last element
 	discounts = append(discounts, discount)
 
-	return &discounts, nil
+	store = model.Store{
+		Name:      p.Place,
+		Logo:      p.LogoUrl,
+		Host:      p.UrlHost,
+		Category:  *categoryStores[p.TypeStore],
+		Discounts: discounts,
+	}
+
+	return &store, nil
+
 }
 
-func getPrice(h *colly.HTMLElement, selector string) (price float64, err error) {
+func (p *parserDiscount) getPrice(h *colly.HTMLElement, selector string) (price float64, err error) {
 
 	var attrPrice string
 
@@ -119,7 +135,7 @@ func getPrice(h *colly.HTMLElement, selector string) (price float64, err error) 
 	return
 }
 
-func getPicture(h *colly.HTMLElement) (picture string) {
+func (p *parserDiscount) getPicture(h *colly.HTMLElement) (picture string) {
 
 	containerPicture := h.DOM.Find("div.ut2-gl__image")
 
