@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"time"
 
@@ -19,7 +19,7 @@ const (
 type TranslatorDiscount struct {
 	url             string
 	defaultLanguage language.Tag
-	languages       [2]language.Tag
+	languages       [3]language.Tag
 }
 
 type ForTranslate struct {
@@ -43,7 +43,7 @@ func NewTranslatorDiscount() (t *TranslatorDiscount) {
 	return &TranslatorDiscount{
 		url:             urlTranslate,
 		defaultLanguage: language.Georgian,
-		languages:       [2]language.Tag{language.English, language.Russian},
+		languages:       [3]language.Tag{language.English, language.Russian, language.BrazilianPortuguese},
 	}
 }
 
@@ -167,7 +167,7 @@ func (t *TranslatorDiscount) translatedText(forTrasnlateText string, lang string
 	}
 
 	defer res.Body.Close()
-	body, err := ioutil.ReadAll(res.Body)
+	body, err := io.ReadAll(res.Body)
 	if err != nil {
 		return nil, err
 	}
