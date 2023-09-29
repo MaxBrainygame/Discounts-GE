@@ -14,7 +14,7 @@ const (
 	urlHost     = "https://ch.ge"
 	discountUrl = "/promotions-list.html"
 	logoUrl     = "https://ch.ge/images/logos/3/1872986800.webp"
-	place       = "CleanHouse"
+	place       = "Clean House"
 	typeStore   = "CosmeticsHouseholdCleaningProducts"
 )
 

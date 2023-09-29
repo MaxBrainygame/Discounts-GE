@@ -23,30 +23,38 @@ const (
 	typeStore   = "Pharmacy"
 	// Quantity elements in one page
 	itemsPerPage = "600"
+	// This address is sent by the API if there is no photo of the product, but upon clicking it gives 404
+	placeholderInCorrect = "https://app.psp.ge/media/catalog/product/placeholder/default/psp__436_3.png"
+	// Correct placeholder
+	placeholderCorrect = "https://psp.ge/placeholder.png"
 )
 
 type parserDiscount struct {
-	Collector    *colly.Collector
-	Place        string
-	LogoUrl      string
-	UrlHost      string
-	ProductsUrl  string
-	CategoryUrl  string
-	ItemsPerPage string
-	TypeStore    string
+	Collector            *colly.Collector
+	Place                string
+	LogoUrl              string
+	UrlHost              string
+	ProductsUrl          string
+	CategoryUrl          string
+	ItemsPerPage         string
+	TypeStore            string
+	PlaceholderInCorrect string
+	PlaceholderCorrect   string
 }
 
 func NewParser() parsers.ParseDiscounter {
 
 	return &parserDiscount{
-		Collector:    colly.NewCollector(),
-		Place:        place,
-		LogoUrl:      logoUrl,
-		UrlHost:      urlHost,
-		ProductsUrl:  fmt.Sprint(urlHost, productsUrl),
-		CategoryUrl:  fmt.Sprint(urlHost, categoryUrl),
-		ItemsPerPage: itemsPerPage,
-		TypeStore:    typeStore,
+		Collector:            colly.NewCollector(),
+		Place:                place,
+		LogoUrl:              logoUrl,
+		UrlHost:              urlHost,
+		ProductsUrl:          fmt.Sprint(urlHost, productsUrl),
+		CategoryUrl:          fmt.Sprint(urlHost, categoryUrl),
+		ItemsPerPage:         itemsPerPage,
+		TypeStore:            typeStore,
+		PlaceholderInCorrect: placeholderInCorrect,
+		PlaceholderCorrect:   placeholderCorrect,
 	}
 }
 
@@ -100,7 +108,7 @@ func (p *parserDiscount) ParseDiscounts(categoryStores map[string]*model.Categor
 
 				discountItem := model.DiscountItem{
 					Url:          fmt.Sprintf("%s/%s.html", p.UrlHost, product.Url_key),
-					Picture:      product.Thumbnail.Url,
+					Picture:      p.getPicture(product.Thumbnail.Url),
 					Title:        product.Name,
 					RegularPrice: regularPrice,
 					FinalPrice:   finalPrice,
@@ -210,4 +218,13 @@ func (p *parserDiscount) executeRequest(req *http.Request) (*[]byte, error) {
 
 	return &contentBody, nil
 
+}
+
+func (p *parserDiscount) getPicture(urlPicture string) string {
+
+	if urlPicture == p.PlaceholderInCorrect {
+		return p.PlaceholderCorrect
+	}
+
+	return urlPicture
 }

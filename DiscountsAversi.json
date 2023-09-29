@@ -8,9 +8,81 @@
     },
     "Discounts": [
         {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3203",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/heinz-akcia-1.jpg",
+            "Title": "ჰეინცის შერჩეულ ასორტიმენტზე 1+1 აქცია მოქმედებს",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3204",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/mtredi-brati-hipp-nestle-humana-nutrilak-plasmon-friso-picot-celia-bellakt.jpg",
+            "Title": "გაატარე მტრედი ბარათი ავერსში და ისაგებლე 2+1 აქციით რძის ნაზავების შერჩეულ ასორტიმენტზე",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3205",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/ahava-srul-asortimentsze-fasdakleba.jpg",
+            "Title": "მოასწარი თვის ბოლომდე, AHAVA-ს სრულ ასორტიმენტზე 50%-იანი ფასდაკლება გელოდება",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3206",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/humana-akcia-2.jpg",
+            "Title": "გაატარე მტრედი ბარათი და ისარგებლე 2+2 აქციით ჰუმანას შერჩეულ ასორტიმენტზე",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3207",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/baboo-akcia-bavsvhebistvis.jpg",
+            "Title": "ჩვენს აფთიაქებში, BABOO-ს ბავშვთა მოვლის საშუალებებზე განსაკუთრებული ფასები დაგხვდება",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3208",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/lo-bello-e-akcia-bavshvebistvis.jpg",
+            "Title": "28 სექტემბრიდან, ავერსის აფთიაქებში, ლობელოს ორცხობილები სპეც. ფასად, მხოლოდ 5.70 ლარად, დაგხვდებათ",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3209",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/chipolino-akcia-skamebze.jpg",
+            "Title": "მხოლოდ სამი დღით, ავერსში CHIPOLINO-ს პროდუქტებზე ყველაზე დაბალი ფასები დაგხვდებათ",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3210",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/mesauda-specialuri-pasi-pudrze.jpg",
+            "Title": "30 სექტემბრის ჩათვლით, შეიძინე MESAUDA-ს პუდრი NUDE VENUS, 106 და 107 ნომერი, საუკეთესო ფასად",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3211",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/gaorgmaebuli-gulebi-cainfarma-medikamentebi.jpg",
+            "Title": "ავერსის სააფთიაქო ქსელში კარდიოლოგიურ მედიკამენტებზე ფასდაკლება გელოდებათ",
+            "Description": "",
+            "Goods": null
+        },
+        {
             "Url": "https://www.aversi.ge/ka/aqciebi/3190",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/declare-akcia-50-aversshi.jpg",
             "Title": "ჩვენს აფთიაქებში, მხოლოდ თვის ბოლომდე, DECLARE-ის სრულ ასორტიმენტზე -50% ფასდაკლება დაგხვდება",
             "Description": "",
             "Goods": null
@@ -18,7 +90,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3191",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/intima-akcia-aversshi.jpg",
             "Title": "ავერსის აფთიაქებში, განსაკუთრებული ფასები დაგხვდება ჰიგიენურ საფენებსა და ინტიმური მოვლის საშუალებებზე",
             "Description": "",
             "Goods": null
@@ -26,7 +98,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3192",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/beter-gamadidebeli-sarke-akcia.jpg",
             "Title": "30 სექტემბრის ჩათვლით, BETER-ის გამადიდებელ სარკეს სპეც. ფასად შეიძენ",
             "Description": "",
             "Goods": null
@@ -34,7 +106,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3193",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/elgon-tmis-zeti-fasdakleba-aversshi.jpg",
             "Title": "თვის ბოლომდე, ჩვენთან, ELGON-ის ზეთზე სპეც. ფასი გელოდება",
             "Description": "",
             "Goods": null
@@ -42,7 +114,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3194",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/chipolino-akcia-aversshi-spec-fasebi.jpg",
             "Title": "30 სეექტემბრის ჩათვლით, CHIPOLINO-ს შერჩეულ პროდუქციაზე სპეც. ფასები დაგხვდება",
             "Description": "",
             "Goods": null
@@ -50,7 +122,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3195",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/mosquitno-akcia-50.jpg",
             "Title": "ჩვენს სააფთიაქო ქსელში, MosquitNO-ს პროდუქციაზე სპეც. ფასები გელოდება",
             "Description": "",
             "Goods": null
@@ -58,23 +130,15 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3196",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/bebble-akcia-50-aversshi.jpg",
             "Title": "30 სექტემბრის ჩათვლით, პატარებისთვის საყვარელ ბრენდებზე აქციები გელოდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3197",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
-            "Title": "ექსელენსსა და პრეფერენსზე 2+2 აქცია მოქმედებს",
             "Description": "",
             "Goods": null
         },
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3198",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/oral-b-akcia-aversshi.jpg",
             "Title": " ჩვენს აფთიაქებში, ORAL-B -ის ელექტრო ჯაგრისებსა და სათადარიგო თავებზე -50% ფასდაკლება დაგხვდებ",
             "Description": "",
             "Goods": null
@@ -82,7 +146,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3199",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/body-natur-akcia-aversshi.jpg",
             "Title": "body natur-ის სასაჩუქრე ნაკრებები განსაკუთრებულ ფასად გელოდება",
             "Description": "",
             "Goods": null
@@ -90,15 +154,31 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3200",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/fasdakleba-sagebavebze-aversshi.jpg",
             "Title": "30 სექტემბრის ჩათვლით, ჩვენთან, Londa-სა და Wellaton-ის საღებავების სრულ ასორტიმენტზე 50%-იანი ფასდაკლება დაგხვდება",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3201",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/fruto-nanny-akcia-3.jpg",
+            "Title": "27 სექტემბრიდან, ფრუტო ნანის პროდუქციაზე 3+3 აქცია მოქმედებს",
+            "Description": "",
+            "Goods": null
+        },
+        {
+            "Url": "https://www.aversi.ge/ka/aqciebi/3202",
+            "Place": "Aversi",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/sagebavze-2-akcia.jpg",
+            "Title": "გარნიერის საღებავებზე 2+2 აქცია მოქმედებს",
             "Description": "",
             "Goods": null
         },
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3182",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/byphasse-akcia-50.jpg",
             "Title": "ჩვენს აფთიაქებში, ესპანური ბრენდი BYPHASSE-ის სრულ ასორტიმენტზე -50% ფასდაკლება გელოდება",
             "Description": "",
             "Goods": null
@@ -106,7 +186,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3183",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/shazay-akcia-30.jpg",
             "Title": "ბრილიანტის ფილტრაციით დამზადებულ, გერმანულ ბრენდ SHAZAY-ს სრულ ასორტიმენტზე -30% ფასდაკლება დაგხვდება",
             "Description": "",
             "Goods": null
@@ -114,7 +194,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3184",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/fasdakleba-deodorantebze.jpg",
             "Title": "30 სექტემბრის ჩათვლით, სპეც. ფასები დაგხვდება დეოდორანტებზე და საპარს საშუალებებზე",
             "Description": "",
             "Goods": null
@@ -122,7 +202,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3185",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/avene-fasdakleba-30.jpg",
             "Title": "ავერსის აფთიაქებში, Avène-ის სრულ ასორტიმენტზე -30% ფასდაკლება გელოდება",
             "Description": "",
             "Goods": null
@@ -130,7 +210,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3186",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/kardiologiur-da-diabetis-sawinaagmdego-medikamentebze-fasdakleba-35.jpg",
             "Title": "ავერსის აფთიაქებში, წარადგინე პრომო კოდი - 2309 და მიიღე -35% ფასდაკლებით კარდიოლოგიური და დიაბეტის საწინააღმდეგო მედიკამენტები",
             "Description": "",
             "Goods": null
@@ -138,7 +218,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3187",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/qiriness-akcia-50-srul-asortimentze.jpg",
             "Title": "ფრანგულ ბრენდ QIRINESS-ის სრულ ასორტიმენტზე მოქმედებს 50%-იანი ფასდაკლება",
             "Description": "",
             "Goods": null
@@ -146,7 +226,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3188",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/shazay-aversi-fasdakelba.jpg",
             "Title": "30 სექტემბრის ჩათვლით, სპეც. ფასი დაგხვდებათ, ავერსის აფთიაქებში",
             "Description": "",
             "Goods": null
@@ -154,7 +234,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3189",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/sulakauris-gamomvemlloba-mxolod-online-akcia.jpg",
             "Title": "25-30 სექტემბერის ჩათვლით აირჩიე ,,აფთიაქში მიკითხვა\" და მიიღე -30% ფასდაკლება ,,ბაკურ სულაკაურის\" გამომცემლობის წიგნებზე",
             "Description": "",
             "Goods": null
@@ -162,7 +242,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3175",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/beter-sakvnetela-akcia.jpg",
             "Title": "ავერსის აფთიაქებში, მოიკითხე BETER-ის ფრჩხილის საკვნეტელა და მიიღე ის სპეც. ფასად",
             "Description": "",
             "Goods": null
@@ -170,7 +250,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3177",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/akcias-plus-sachuqari.jpg",
             "Title": "ავერსის აფთიაქებში, 50+ ლარის შენაძენზე საჩუქარს მიიღებ",
             "Description": "",
             "Goods": null
@@ -178,7 +258,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3178",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/50-procentiani-aqcia-brendebze.jpg",
             "Title": "ავერსში თვის ბოლომდე პრემიუმ ბრენდების 50ლ+ შენაძენზე მიიღებ საჩუქარს",
             "Description": "",
             "Goods": null
@@ -186,7 +266,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3179",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/byphasse-tuchis-balmi-akcia.jpg",
             "Title": "ჩვენს აფთიაქებში, BYPHASSE-ის ტუჩის ბალმზე SPF30 დამცავით განსაკუთრებული ფასი გელოდება",
             "Description": "",
             "Goods": null
@@ -194,7 +274,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3180",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/perspirex-fasdakleba.jpg",
             "Title": "სექტემბრის ბოლომდე, Perspirex-ის პროდუქციას -30% ფასდაკლებით შეიძენ",
             "Description": "",
             "Goods": null
@@ -202,7 +282,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3181",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/elgon-40-fasdakleba-aversshi.jpg",
             "Title": "ავერსის აფთიაქებში, ELGON-ის სრულ ასორტიმენტზე -40% ფასდაკლება მოქმედებს",
             "Description": "",
             "Goods": null
@@ -210,23 +290,15 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3169",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/omronis-akcia-fasdakleba.jpg",
             "Title": "20-დან 30 სექტემბრის ჩათვლით, ავერსის აფთიაქებში, OMRON-ის საოჯახო სამედიცინო აპარატურაზე -20%-იანი ფასდაკლება დაგხვდება",
-            "Description": "",
-            "Goods": null
-        },
-        {
-            "Url": "https://www.aversi.ge/ka/aqciebi/3170",
-            "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
-            "Title": " კანადურ ბრენდ კიდამენტოს საბავშვო ფოტოაპარატები უკვე ავერსის აფთიაქებშია",
             "Description": "",
             "Goods": null
         },
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3171",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/piris-gru-fasdakleba.jpg",
             "Title": "თვის ბოლომდე, პირის ღრუს მოვლის საშუალებებზე დიდი აქციები დაგხვდება",
             "Description": "",
             "Goods": null
@@ -234,7 +306,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/3140",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/avtogasaruji-sashualebebi-oqrosferi-da-ertgvarovani-rujis-efeqtit-italiidan.jpg",
             "Title": "That so ავტოგასარუჯი საშუალებები ოქროსფერი და ერთგვაროვანი რუჯის ეფექტით იტალიიდან",
             "Description": "",
             "Goods": null
@@ -242,7 +314,7 @@
         {
             "Url": "https://www.aversi.ge/ka/aqciebi/172",
             "Place": "Aversi",
-            "Picture": "https://www.aversi.gehttps://www.aversi.ge",
+            "Picture": "https://www.aversi.ge/uploads/aqcia/terfis_skanireba.jpg",
             "Title": "საჩუქარი ავერსისგან - ტერფის უფასო კვლევა",
             "Description": "",
             "Goods": null

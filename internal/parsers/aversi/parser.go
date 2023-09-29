@@ -107,7 +107,7 @@ func (p *parserDiscount) getPicture(h *colly.HTMLElement) (picture string) {
 
 	picture, exists := h.DOM.Find("img.img-fullwidth.img-responsive.aqciis-photo").Attr("src")
 	if exists {
-		picture = fmt.Sprintf("%v%v", p.UrlHost, p.UrlHost)
+		picture = fmt.Sprintf("%v%v", p.UrlHost, picture)
 	}
 
 	return

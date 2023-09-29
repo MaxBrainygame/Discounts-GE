@@ -8,9 +8,6 @@ import (
 	"log"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/aversi"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/cleanhouse"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/nikora"
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/psp"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
@@ -20,7 +17,7 @@ func main() {
 	categoryStores := make(map[string]*model.CategoryStores)
 	categoryStores["Pharmacy"] = &model.CategoryStores{Key: "58270", Name: "Pharmacy"}
 	categoryStores["Grocery"] = &model.CategoryStores{Key: "58780", Name: "Grocery"}
-	categoryStores["CosmeticsHouseholdCleaningProducts"] = &model.CategoryStores{Key: "99999", Name: "Cosmetics, Household cleaning products"}
+	categoryStores["CosmeticsHouseholdCleaningProducts"] = &model.CategoryStores{Key: "57702", Name: "Cosmetics & Hygiene"}
 
 	parsersDiccount := GetParsersDiscount()
 	// translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
@@ -52,10 +49,10 @@ func main() {
 
 func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 
-	parsersDiccount = append(parsersDiccount, aversi.NewParser())
-	parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
+	// parsersDiccount = append(parsersDiccount, aversi.NewParser())
+	// parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
 	parsersDiccount = append(parsersDiccount, psp.NewParser())
-	parsersDiccount = append(parsersDiccount, nikora.NewParser())
+	// parsersDiccount = append(parsersDiccount, nikora.NewParser())
 
 	return
 }
