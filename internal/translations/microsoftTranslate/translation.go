@@ -43,7 +43,7 @@ func NewTranslatorDiscount() (t *TranslatorDiscount) {
 	return &TranslatorDiscount{
 		url:             urlTranslate,
 		defaultLanguage: language.Georgian,
-		languages:       [3]language.Tag{language.English, language.Russian, language.BrazilianPortuguese},
+		languages:       [3]language.Tag{language.English, language.Russian, language.MustParse("be")},
 	}
 }
 

@@ -66,7 +66,7 @@ func categories(w http.ResponseWriter, r *http.Request) {
 
 	categoriesStore = append(categoriesStore, storeAversi.Category)
 	categoriesStore = append(categoriesStore, storeNikora.Category)
-	categoriesStore = append(categoriesStore, storePSP.Category)
+	// categoriesStore = append(categoriesStore, storePSP.Category)
 	categoriesStore = append(categoriesStore, storeCleanHouse.Category)
 
 	resp, err := json.Marshal(categoriesStore)
@@ -189,7 +189,6 @@ func promotions(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Write(resp)
-
 }
 
 func products(w http.ResponseWriter, r *http.Request) {
@@ -246,7 +245,6 @@ func products(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Write(resp)
-
 }
 
 func main() {

@@ -23,7 +23,7 @@ func main() {
 	// translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
 
 	for _, parser := range parsersDiccount {
-
+		var s string
 		store, err := parser.ParseDiscounts(categoryStores)
 		if err != nil {
 			log.Fatal(err)
