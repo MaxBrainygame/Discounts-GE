@@ -1,14 +1,12 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 
-	"io/ioutil"
 	"log"
 
 	"github.com/MaxBrainygame/Discounts-GE/internal/parsers"
-	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/psp"
+	"github.com/MaxBrainygame/Discounts-GE/internal/parsers/nikora"
 	"github.com/MaxBrainygame/Discounts-GE/model"
 )
 
@@ -23,7 +21,6 @@ func main() {
 	// translatorDiscount := microsoftTranslate.NewTranslatorDiscount()
 
 	for _, parser := range parsersDiccount {
-		var s string
 		store, err := parser.ParseDiscounts(categoryStores)
 		if err != nil {
 			log.Fatal(err)
@@ -51,8 +48,8 @@ func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 
 	// parsersDiccount = append(parsersDiccount, aversi.NewParser())
 	// parsersDiccount = append(parsersDiccount, cleanhouse.NewParser())
-	parsersDiccount = append(parsersDiccount, psp.NewParser())
-	// parsersDiccount = append(parsersDiccount, nikora.NewParser())
+	// parsersDiccount = append(parsersDiccount, psp.NewParser())
+	parsersDiccount = append(parsersDiccount, nikora.NewParser())
 
 	return
 }
@@ -60,15 +57,49 @@ func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 func WriteDiscount[typeDiscount *model.Store | *[]model.DiscountLanguage](discounts typeDiscount,
 	filename string) error {
 
-	discountsJson, err := json.Marshal(discounts)
-	if err != nil {
-		return err
-	}
-
-	err = ioutil.WriteFile(filename, discountsJson, 0644)
-	if err != nil {
-		return err
-	}
+	// 	discountsJson, err := json.Marshal(discounts)
+	// 	if err != nil {
+	// 		return err
+	// 	}
+	//
+	// 	err = os.WriteFile(filename, discountsJson, 0644)
+	// 	if err != nil {
+	// 		return err
+	// 	}
+	// 	ctx := context.Background()
+	//
+	// 	opts := options.Client().ApplyURI("mongodb://localhost:32771")
+	//
+	// 	client, err := mongo.Connect(ctx, opts)
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	}
+	//
+	// 	// Check the connection
+	// 	err = client.Ping(ctx, nil)
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	}
+	//
+	// 	fmt.Println("Connected to MongoDB!")
+	//
+	// 	collection := client.Database("discounts").Collection("shops")
+	//
+	// 	_, err = collection.Indexes().CreateOne(
+	// 		ctx,
+	// 		mongo.IndexModel{
+	// 			Keys: bson.D{
+	// 				{Key: "host", Value: 1},
+	// 				{Key: "name", Value: 1},
+	// 			},
+	// 			Options: options.Index().SetUnique(true),
+	// 		},
+	// 	)
+	//
+	// 	_, err = collection.InsertOne(context.Background(), discounts)
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	}
 
 	return nil
 }
