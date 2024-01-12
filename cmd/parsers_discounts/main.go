@@ -1,7 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 
 	"log"
 
@@ -57,15 +59,15 @@ func GetParsersDiscount() (parsersDiccount []parsers.ParseDiscounter) {
 func WriteDiscount[typeDiscount *model.Store | *[]model.DiscountLanguage](discounts typeDiscount,
 	filename string) error {
 
-	// 	discountsJson, err := json.Marshal(discounts)
-	// 	if err != nil {
-	// 		return err
-	// 	}
-	//
-	// 	err = os.WriteFile(filename, discountsJson, 0644)
-	// 	if err != nil {
-	// 		return err
-	// 	}
+	discountsJson, err := json.Marshal(discounts)
+	if err != nil {
+		return err
+	}
+
+	err = os.WriteFile(filename, discountsJson, 0644)
+	if err != nil {
+		return err
+	}
 	// 	ctx := context.Background()
 	//
 	// 	opts := options.Client().ApplyURI("mongodb://localhost:32771")

@@ -1,4 +1,5 @@
 {
+    "ID": "000000000000000000000000",
     "Logo": "https://nikorasupermarket.ge/images/logo.svg",
     "Name": "Nikora",
     "Host": "http://nikorasupermarket.ge",
@@ -8,28 +9,36 @@
     },
     "Discounts": [
         {
-            "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/2-კვირიანი",
+            "Url": "http://nikorasupermarket.ge/dflip/index.php?file_url=/modules/catalogues/uploads/44.pdf",
             "Place": "Nikora",
-            "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/4_catalogue.jpg",
+            "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/3_catalogue.jpg",
             "Title": "2 კვირიანი აქციები\n",
             "Description": "",
             "Goods": [
                 {
-                    "Url": "http://nikorasupermarket.ge/modules/catalogues/uploads/42.pdf",
+                    "Url": "http://nikorasupermarket.ge/modules/catalogues/uploads/44.pdf",
                     "Picture": "",
-                    "Title": "PDF",
+                    "Title": "2 კვირიანი აქციები\n",
                     "RegularPrice": 0,
                     "FinalPrice": 0
                 }
             ]
         },
         {
-            "Url": "http://nikorasupermarket.ge/ge/მიმდინარე-აქციები/სეზონური-კატალოგი",
+            "Url": "http://nikorasupermarket.ge/dflip/index.php?file_url=/modules/catalogues/uploads/42.pdf",
             "Place": "Nikora",
-            "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/3_catalogue.jpg",
+            "Picture": "http://nikorasupermarket.ge/modules/current_promotions/uploads/4_catalogue.jpg",
             "Title": "სეზონური-კატალოგი",
             "Description": "",
-            "Goods": null
+            "Goods": [
+                {
+                    "Url": "http://nikorasupermarket.ge/modules/catalogues/uploads/42.pdf",
+                    "Picture": "",
+                    "Title": "სეზონური-კატალოგი",
+                    "RegularPrice": 0,
+                    "FinalPrice": 0
+                }
+            ]
         }
     ]
 }
